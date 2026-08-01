@@ -1,0 +1,501 @@
+accident_id,latitude,longitude,date_time,road_segment_id,road_name,accident_severity,weather_condition,time_of_day,traffic_density,road_type,num_lanes,has_intersection,has_curve,is_peak_hour,risk_score
+1,18.578624,79.264809,2023-01-01 16:38:41,RS_023,Karimnagar-Peddapalli Bypass,Medium,Clear,Afternoon,Medium,Highway,5,False,False,False,0.4369
+2,18.62253,79.411128,2023-01-09 21:33:00,RS_046,Manthani Road,High,Fog,Night,Low,Arterial,2,False,True,False,0.5008
+3,18.636122,79.357841,2023-01-13 09:13:21,RS_027,SH-7,Low,Clear,Morning,High,Highway,4,False,False,True,0.399
+4,18.622126,79.397977,2023-01-15 12:55:27,RS_045,Manthani Road,Low,Clear,Afternoon,Medium,Arterial,2,True,True,False,0.3792
+5,18.593877,79.294158,2023-01-21 15:53:14,RS_016,SH-1 Peddapalli-Karimnagar,Medium,Fog,Afternoon,Medium,Highway,4,False,False,False,0.4827
+6,18.725868,79.397414,2023-01-25 17:01:33,RS_035,Godavarikhani Road,Low,Clear,Evening,Medium,Arterial,3,False,False,False,0.4061
+7,18.723092,79.397492,2023-01-26 20:37:19,RS_035,Godavarikhani Road,Medium,Clear,Evening,Medium,Arterial,3,False,False,False,0.299
+8,18.58899,79.293151,2023-02-01 15:42:07,RS_022,Karimnagar-Peddapalli Bypass,Medium,Clear,Afternoon,Low,Highway,6,True,False,False,0.3298
+9,18.645002,79.482598,2023-02-15 22:24:00,RS_049,Manthani Road,High,Rain,Night,Low,Arterial,2,False,True,False,0.5378
+10,18.76055,79.503507,2023-02-17 20:26:29,RS_011,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,4,True,True,True,0.7808
+11,18.699405,79.452781,2023-02-20 12:28:55,RS_005,Rajiv Highway (SH-1),Low,Clear,Afternoon,Medium,Highway,4,False,False,False,0.5074
+12,18.571944,79.231254,2023-02-20 18:47:41,RS_018,SH-1 Peddapalli-Karimnagar,High,Clear,Evening,Medium,Highway,4,False,False,True,0.4717
+13,18.738078,79.521088,2023-02-25 18:27:08,RS_009,Rajiv Highway (SH-1),High,Rain,Evening,Medium,Highway,4,False,False,True,0.6725
+14,18.63042,79.368321,2023-02-28 23:24:09,RS_026,SH-7,Medium,Clear,Night,High,Highway,4,True,False,False,0.3808
+15,18.681915,79.363837,2023-03-01 19:27:38,RS_032,Godavarikhani Road,Medium,Clear,Evening,Low,Arterial,2,True,False,False,0.3267
+16,18.741663,79.543901,2023-03-03 13:42:06,RS_009,Rajiv Highway (SH-1),High,Fog,Afternoon,Medium,Highway,4,False,False,False,0.6941
+17,18.613652,79.382153,2023-03-03 19:34:44,RS_058,Peddapalli Ring Road,Low,Clear,Evening,Medium,Arterial,4,False,False,True,0.2809
+18,18.602043,79.354021,2023-03-07 18:23:49,RS_053,Dharmaram Road,Low,Clear,Evening,Low,Local,2,True,True,True,0.4426
+19,18.773941,79.468379,2023-03-10 02:32:25,RS_013,Rajiv Highway (SH-1),Medium,Rain,Night,Medium,Highway,6,True,False,False,0.755
+20,18.715312,79.474658,2023-03-10 10:43:46,RS_007,Rajiv Highway (SH-1),Medium,Rain,Morning,Medium,Highway,6,False,False,False,0.6908
+21,18.577845,79.262166,2023-03-16 17:03:44,RS_023,Karimnagar-Peddapalli Bypass,Low,Clear,Evening,Medium,Highway,5,False,False,True,0.3744
+22,18.576436,79.261614,2023-03-18 17:00:59,RS_023,Karimnagar-Peddapalli Bypass,High,Clear,Evening,Medium,Highway,5,False,False,False,0.3052
+23,18.646092,79.400447,2023-03-20 20:18:34,RS_002,Rajiv Highway (SH-1),Low,Clear,Evening,Low,Highway,4,False,False,True,0.4975
+24,18.658976,79.405762,2023-03-20 20:25:52,RS_002,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,4,False,False,True,0.5747
+25,18.672212,79.571087,2023-03-21 00:25:31,RS_052,Manthani Road,Low,Clear,Night,Medium,Arterial,2,False,True,True,0.4478
+26,18.608355,79.347987,2023-03-24 15:05:23,RS_015,SH-1 Peddapalli-Karimnagar,Low,Clear,Afternoon,Medium,Highway,4,False,False,True,0.2984
+27,18.651486,79.340454,2023-03-26 15:40:28,RS_028,SH-7,Medium,Clear,Afternoon,Low,Highway,4,True,True,False,0.5862
+28,18.611081,79.376402,2023-03-26 19:52:42,RS_058,Peddapalli Ring Road,Low,Clear,Evening,Medium,Arterial,4,False,False,False,0.3016
+29,18.633481,79.392394,2023-03-29 05:36:20,RS_001,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,6,False,True,False,0.4972
+30,18.772501,79.467177,2023-03-31 19:32:51,RS_013,Rajiv Highway (SH-1),Low,Clear,Evening,Low,Highway,6,True,False,False,0.6476
+31,18.732024,79.517748,2023-03-31 21:24:15,RS_008,Rajiv Highway (SH-1),Low,Clear,Night,Low,Highway,5,True,False,False,0.6679
+32,18.734279,79.509174,2023-04-04 09:02:18,RS_043,Basanthnagar Road,Medium,Fog,Morning,High,Arterial,2,False,False,True,0.389
+33,18.640262,79.353238,2023-04-07 02:54:20,RS_027,SH-7,Medium,Clear,Night,Medium,Highway,4,False,False,False,0.366
+34,18.780111,79.452701,2023-04-08 22:20:12,RS_013,Rajiv Highway (SH-1),High,Clear,Night,Low,Highway,6,True,False,False,0.6918
+35,18.599276,79.325778,2023-04-09 21:28:32,RS_021,Karimnagar-Peddapalli Bypass,Medium,Clear,Night,Medium,Highway,6,False,True,False,0.5703
+36,18.691248,79.356539,2023-04-17 12:01:12,RS_033,Godavarikhani Road,Medium,Clear,Afternoon,High,Arterial,2,False,False,False,0.2143
+37,18.568627,79.218532,2023-04-20 14:26:24,RS_019,SH-1 Peddapalli-Karimnagar,Medium,Clear,Afternoon,Medium,Highway,4,False,True,False,0.4324
+38,18.676415,79.572088,2023-04-23 09:45:21,RS_052,Manthani Road,Low,Rain,Morning,Low,Arterial,2,False,True,True,0.3995
+39,18.775348,79.456887,2023-04-30 22:38:39,RS_040,Basanthnagar Road,Low,Clear,Night,Low,Arterial,2,False,False,False,0.3341
+40,18.653776,79.334102,2023-05-01 13:33:25,RS_028,SH-7,Medium,Clear,Afternoon,High,Highway,4,True,True,False,0.4635
+41,18.561263,79.210852,2023-05-03 02:20:06,RS_025,Karimnagar-Peddapalli Bypass,Medium,Clear,Night,High,Highway,4,True,False,True,0.5171
+42,18.682171,79.42234,2023-05-04 16:51:44,RS_004,Rajiv Highway (SH-1),Medium,Clear,Afternoon,Low,Highway,6,True,False,False,0.2719
+43,18.586441,79.255862,2023-05-06 21:25:24,RS_017,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,Medium,Highway,4,False,False,False,0.4704
+44,18.650184,79.501373,2023-05-08 19:59:16,RS_050,Manthani Road,Low,Clear,Evening,High,Arterial,2,False,False,True,0.3884
+45,18.769465,79.480252,2023-05-09 19:36:54,RS_012,Rajiv Highway (SH-1),High,Clear,Evening,High,Highway,5,False,False,False,0.6598
+46,18.608625,79.361984,2023-05-10 17:41:59,RS_059,Peddapalli Ring Road,Low,Clear,Evening,Low,Arterial,4,False,False,False,0.2274
+47,18.614711,79.375505,2023-05-13 22:13:26,RS_058,Peddapalli Ring Road,Low,Clear,Night,High,Arterial,4,False,False,False,0.2587
+48,18.65773,79.528205,2023-05-17 09:37:25,RS_050,Manthani Road,Low,Clear,Morning,Medium,Arterial,2,False,False,True,0.1753
+49,18.769353,79.474594,2023-05-17 15:55:32,RS_013,Rajiv Highway (SH-1),High,Clear,Afternoon,Low,Highway,6,True,False,False,0.6013
+50,18.73892,79.512402,2023-05-21 11:45:55,RS_043,Basanthnagar Road,Low,Clear,Morning,Low,Arterial,2,False,False,True,0.3051
+51,18.592617,79.342419,2023-05-22 17:29:08,RS_053,Dharmaram Road,Low,Fog,Evening,Low,Local,2,True,True,True,0.5926
+52,18.573793,79.233554,2023-05-22 20:05:04,RS_018,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,Medium,Highway,4,False,False,True,0.4954
+53,18.774615,79.460151,2023-05-22 23:35:13,RS_013,Rajiv Highway (SH-1),Medium,Rain,Night,Medium,Highway,6,True,False,False,0.8513
+54,18.7794,79.450541,2023-05-25 14:42:57,RS_013,Rajiv Highway (SH-1),Medium,Clear,Afternoon,Low,Highway,6,True,False,False,0.6074
+55,18.616903,79.381842,2023-05-31 13:35:03,RS_026,SH-7,Medium,Rain,Afternoon,Medium,Highway,4,True,False,False,0.4049
+56,18.744819,79.545745,2023-06-05 16:52:50,RS_044,Basanthnagar Road,High,Clear,Afternoon,Low,Arterial,2,False,False,False,0.3394
+57,18.736417,79.520294,2023-06-06 14:11:19,RS_043,Basanthnagar Road,Low,Fog,Afternoon,Medium,Arterial,2,False,False,True,0.3782
+58,18.666255,79.377768,2023-06-06 17:15:47,RS_032,Godavarikhani Road,Medium,Rain,Evening,Medium,Arterial,2,True,False,True,0.6215
+59,18.651077,79.503495,2023-06-09 14:08:24,RS_050,Manthani Road,Low,Clear,Afternoon,Medium,Arterial,2,False,False,False,0.2379
+60,18.590642,79.336414,2023-06-14 17:18:48,RS_053,Dharmaram Road,High,Clear,Evening,Low,Local,2,True,True,False,0.44
+61,18.630294,79.436967,2023-06-14 19:28:15,RS_047,Manthani Road,High,Clear,Evening,Low,Arterial,2,False,False,True,0.3701
+62,18.658355,79.380283,2023-06-15 16:29:03,RS_031,Godavarikhani Road,Low,Rain,Afternoon,High,Arterial,2,True,False,False,0.3641
+63,18.774614,79.456645,2023-06-15 19:16:54,RS_039,Ramagundam Road,Medium,Clear,Evening,Medium,Arterial,3,False,True,True,0.5116
+64,18.732819,79.522331,2023-06-16 10:41:53,RS_009,Rajiv Highway (SH-1),High,Rain,Morning,Medium,Highway,4,False,False,True,0.7511
+65,18.712902,79.468314,2023-06-24 10:37:48,RS_006,Rajiv Highway (SH-1),Low,Rain,Morning,Low,Highway,6,False,True,False,0.6172
+66,18.693284,79.346355,2023-06-25 17:10:50,RS_030,SH-7,Medium,Clear,Evening,Low,Highway,4,False,False,True,0.3748
+67,18.715812,79.476814,2023-06-26 10:24:58,RS_007,Rajiv Highway (SH-1),Low,Clear,Morning,Low,Highway,6,False,False,False,0.5135
+68,18.766285,79.466419,2023-06-28 07:55:43,RS_040,Basanthnagar Road,High,Rain,Morning,High,Arterial,2,False,False,False,0.2367
+69,18.604913,79.357561,2023-06-28 12:43:51,RS_059,Peddapalli Ring Road,Low,Clear,Afternoon,High,Arterial,4,False,False,True,0.3397
+70,18.714973,79.469896,2023-06-30 03:23:42,RS_006,Rajiv Highway (SH-1),Medium,Clear,Night,Medium,Highway,6,False,True,False,0.5479
+71,18.626746,79.388288,2023-07-03 17:48:47,RS_001,Rajiv Highway (SH-1),Low,Rain,Evening,High,Highway,6,False,True,True,0.6684
+72,18.555785,79.295326,2023-07-06 03:34:45,RS_056,Dharmaram Road,Medium,Clear,Night,Low,Local,2,False,True,False,0.3498
+73,18.706425,79.457058,2023-07-09 20:52:22,RS_006,Rajiv Highway (SH-1),Medium,Rain,Evening,High,Highway,6,False,True,False,0.7464
+74,18.58891,79.260998,2023-07-14 17:32:41,RS_017,SH-1 Peddapalli-Karimnagar,Low,Rain,Evening,High,Highway,4,False,False,True,0.587
+75,18.627697,79.418097,2023-07-20 03:41:50,RS_046,Manthani Road,Medium,Rain,Night,Low,Arterial,2,False,True,False,0.4779
+76,18.641525,79.398548,2023-07-22 08:03:01,RS_002,Rajiv Highway (SH-1),Low,Clear,Morning,High,Highway,4,False,False,True,0.4274
+77,18.684913,79.345813,2023-07-25 20:06:01,RS_030,SH-7,Medium,Clear,Evening,Medium,Highway,4,False,False,True,0.4354
+78,18.62387,79.387606,2023-08-01 15:21:59,RS_060,Peddapalli North Link,Low,Heavy Rain,Afternoon,Low,Arterial,2,False,False,False,0.3434
+79,18.666209,79.549353,2023-08-02 00:42:57,RS_051,Manthani Road,Low,Clear,Night,Medium,Arterial,2,True,False,False,0.4225
+80,18.538927,79.267231,2023-08-02 23:07:18,RS_057,Dharmaram Road,Low,Rain,Night,Low,Local,2,False,True,False,0.4828
+81,18.680812,79.423078,2023-08-03 08:57:28,RS_004,Rajiv Highway (SH-1),Medium,Rain,Morning,Low,Highway,6,True,False,False,0.6139
+82,18.56324,79.217474,2023-08-06 18:35:38,RS_025,Karimnagar-Peddapalli Bypass,High,Clear,Evening,Medium,Highway,4,True,False,False,0.4952
+83,18.575167,79.319071,2023-08-10 18:28:22,RS_054,Dharmaram Road,Low,Clear,Evening,Low,Local,2,False,False,False,0.1772
+84,18.695478,79.441205,2023-08-11 20:19:17,RS_005,Rajiv Highway (SH-1),High,Heavy Rain,Evening,High,Highway,4,False,False,True,0.6972
+85,18.642192,79.40175,2023-08-12 20:02:25,RS_002,Rajiv Highway (SH-1),Low,Rain,Evening,Low,Highway,4,False,False,False,0.4917
+86,18.698559,79.445567,2023-08-16 19:02:14,RS_005,Rajiv Highway (SH-1),Low,Rain,Evening,Low,Highway,4,False,False,False,0.5038
+87,18.58413,79.247155,2023-08-18 01:13:51,RS_017,SH-1 Peddapalli-Karimnagar,Low,Clear,Night,Low,Highway,4,False,False,False,0.3337
+88,18.773562,79.459105,2023-08-19 18:41:18,RS_040,Basanthnagar Road,Low,Clear,Evening,High,Arterial,2,False,False,True,0.3684
+89,18.626858,79.388431,2023-08-20 10:30:15,RS_001,Rajiv Highway (SH-1),Medium,Clear,Morning,Low,Highway,6,False,True,False,0.548
+90,18.640622,79.47178,2023-08-23 19:03:39,RS_049,Manthani Road,High,Clear,Evening,High,Arterial,2,False,True,False,0.4605
+91,18.6031,79.333671,2023-08-23 19:45:05,RS_015,SH-1 Peddapalli-Karimnagar,Low,Heavy Rain,Evening,Low,Highway,4,False,False,True,0.5005
+92,18.753712,79.520407,2023-08-27 00:36:08,RS_011,Rajiv Highway (SH-1),High,Rain,Night,Medium,Highway,4,True,True,False,0.9265
+93,18.691909,79.43691,2023-08-31 09:50:51,RS_005,Rajiv Highway (SH-1),Medium,Rain,Morning,Low,Highway,4,False,False,False,0.6151
+94,18.633946,79.448321,2023-09-01 20:55:10,RS_048,Manthani Road,Low,Rain,Evening,Medium,Arterial,2,False,True,True,0.6283
+95,18.674242,79.372249,2023-09-05 19:48:15,RS_032,Godavarikhani Road,High,Rain,Evening,Low,Arterial,2,True,False,False,0.6422
+96,18.610023,79.367191,2023-09-06 20:14:51,RS_059,Peddapalli Ring Road,Medium,Clear,Evening,Low,Arterial,4,False,False,True,0.4193
+97,18.598509,79.30618,2023-09-08 18:02:08,RS_016,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,Low,Highway,4,False,False,True,0.474
+98,18.755626,79.520282,2023-09-09 20:35:00,RS_010,Rajiv Highway (SH-1),High,Rain,Evening,High,Highway,4,False,False,True,0.8047
+99,18.756901,79.518451,2023-09-10 18:00:47,RS_011,Rajiv Highway (SH-1),High,Rain,Evening,Medium,Highway,4,True,True,True,0.95
+100,18.57328,79.22276,2023-09-10 20:43:57,RS_019,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,Medium,Highway,4,False,True,True,0.6483
+101,18.780348,79.452039,2023-09-13 04:57:18,RS_040,Basanthnagar Road,Medium,Clear,Night,Low,Arterial,2,False,False,False,0.3077
+102,18.597841,79.33238,2023-09-15 08:43:46,RS_020,Karimnagar-Peddapalli Bypass,Low,Rain,Morning,Medium,Highway,6,False,False,True,0.457
+103,18.607208,79.347838,2023-09-15 19:28:07,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,Medium,Highway,4,False,False,True,0.503
+104,18.767958,79.488958,2023-09-16 20:22:34,RS_012,Rajiv Highway (SH-1),High,Heavy Rain,Evening,High,Highway,5,False,False,True,0.7344
+105,18.558212,79.292638,2023-09-17 07:18:02,RS_056,Dharmaram Road,Low,Clear,Morning,Low,Local,2,False,True,True,0.2657
+106,18.630731,79.39217,2023-09-17 17:54:10,RS_001,Rajiv Highway (SH-1),Medium,Clear,Evening,High,Highway,6,False,True,True,0.5504
+107,18.711392,79.464819,2023-09-18 21:19:06,RS_006,Rajiv Highway (SH-1),High,Rain,Night,High,Highway,6,False,True,False,0.6589
+108,18.724512,79.399486,2023-09-20 17:24:56,RS_035,Godavarikhani Road,Medium,Clear,Evening,Medium,Arterial,3,False,False,False,0.2809
+109,18.736699,79.516997,2023-09-27 18:11:20,RS_008,Rajiv Highway (SH-1),High,Rain,Evening,Medium,Highway,5,True,False,False,0.704
+110,18.73517,79.526333,2023-09-29 05:20:27,RS_009,Rajiv Highway (SH-1),High,Heavy Rain,Night,Low,Highway,4,False,False,False,0.7121
+111,18.590169,79.273995,2023-09-29 21:31:58,RS_017,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,Low,Highway,4,False,False,False,0.4829
+112,18.707543,79.36034,2023-10-02 09:17:13,RS_034,Godavarikhani Road,Medium,Clear,Morning,Low,Arterial,2,False,False,False,0.3836
+113,18.606337,79.358107,2023-10-06 13:37:09,RS_059,Peddapalli Ring Road,Low,Fog,Afternoon,Medium,Arterial,4,False,False,False,0.2823
+114,18.704193,79.457625,2023-10-07 21:46:17,RS_006,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,6,False,True,False,0.4854
+115,18.659701,79.409589,2023-10-16 07:25:07,RS_003,Rajiv Highway (SH-1),Medium,Clear,Morning,Medium,Highway,6,False,False,False,0.2894
+116,18.607695,79.360293,2023-10-18 08:04:33,RS_059,Peddapalli Ring Road,Low,Clear,Morning,High,Arterial,4,False,False,True,0.3878
+117,18.606878,79.360397,2023-10-19 10:01:11,RS_059,Peddapalli Ring Road,Low,Clear,Morning,Low,Arterial,4,False,False,False,0.199
+118,18.638669,79.394708,2023-10-20 20:15:10,RS_061,Peddapalli North Link,High,Clear,Evening,Medium,Arterial,2,True,True,False,0.5203
+119,18.570514,79.218407,2023-10-20 21:14:14,RS_019,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,Low,Highway,4,False,True,False,0.3982
+120,18.668122,79.333599,2023-10-22 21:42:13,RS_029,SH-7,Low,Heavy Rain,Night,Medium,Highway,4,False,False,False,0.6352
+121,18.718141,79.389568,2023-10-23 09:58:15,RS_035,Godavarikhani Road,Medium,Heavy Rain,Morning,Medium,Arterial,3,False,False,False,0.5212
+122,18.655518,79.408072,2023-10-24 05:21:17,RS_002,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,4,False,False,False,0.4142
+123,18.662178,79.544482,2023-10-24 09:02:59,RS_051,Manthani Road,Low,Rain,Morning,Medium,Arterial,2,True,False,False,0.3655
+124,18.614534,79.380123,2023-10-25 20:11:17,RS_058,Peddapalli Ring Road,Low,Clear,Evening,High,Arterial,4,False,False,True,0.402
+125,18.658536,79.408477,2023-10-31 18:09:00,RS_002,Rajiv Highway (SH-1),Medium,Rain,Evening,Low,Highway,4,False,False,False,0.4881
+126,18.646263,79.396369,2023-11-06 23:12:01,RS_031,Godavarikhani Road,Low,Fog,Night,Medium,Arterial,2,True,False,False,0.5604
+127,18.599566,79.336536,2023-11-07 23:16:09,RS_020,Karimnagar-Peddapalli Bypass,Low,Clear,Night,Medium,Highway,6,False,False,False,0.3492
+128,18.68346,79.422321,2023-11-08 22:09:20,RS_004,Rajiv Highway (SH-1),Low,Clear,Night,Low,Highway,6,True,False,False,0.4945
+129,18.741598,79.502891,2023-11-10 19:20:58,RS_042,Basanthnagar Road,Low,Heavy Rain,Evening,Medium,Arterial,2,False,True,False,0.5692
+130,18.587256,79.335344,2023-11-11 00:07:58,RS_054,Dharmaram Road,Medium,Fog,Night,High,Local,2,False,False,True,0.4796
+131,18.596535,79.313259,2023-11-18 12:28:46,RS_021,Karimnagar-Peddapalli Bypass,Medium,Rain,Afternoon,Low,Highway,6,False,True,False,0.5072
+132,18.725355,79.495289,2023-11-22 08:50:06,RS_008,Rajiv Highway (SH-1),Medium,Clear,Morning,Low,Highway,5,True,False,False,0.5997
+133,18.745851,79.492563,2023-11-22 14:58:43,RS_042,Basanthnagar Road,High,Fog,Afternoon,High,Arterial,2,False,True,True,0.5133
+134,18.748747,79.527366,2023-11-24 06:59:56,RS_010,Rajiv Highway (SH-1),High,Clear,Morning,Low,Highway,4,False,False,True,0.5439
+135,18.583841,79.278388,2023-11-24 08:39:55,RS_023,Karimnagar-Peddapalli Bypass,Low,Clear,Morning,Medium,Highway,5,False,False,True,0.4404
+136,18.695804,79.441672,2023-11-25 15:17:48,RS_005,Rajiv Highway (SH-1),Medium,Rain,Afternoon,Medium,Highway,4,False,False,False,0.378
+137,18.603086,79.324281,2023-11-28 17:13:34,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Fog,Evening,High,Highway,4,False,False,False,0.4965
+138,18.7387,79.501197,2023-12-04 21:43:23,RS_042,Basanthnagar Road,Medium,Clear,Night,High,Arterial,2,False,True,False,0.4382
+139,18.595251,79.320611,2023-12-06 13:31:47,RS_021,Karimnagar-Peddapalli Bypass,High,Fog,Afternoon,High,Highway,6,False,True,True,0.5434
+140,18.707807,79.458796,2023-12-06 20:35:52,RS_006,Rajiv Highway (SH-1),Low,Heavy Rain,Evening,Medium,Highway,6,False,True,False,0.6238
+141,18.727999,79.503172,2023-12-09 17:13:19,RS_008,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,5,True,False,False,0.5609
+142,18.715789,79.469403,2023-12-13 16:38:30,RS_006,Rajiv Highway (SH-1),Medium,Fog,Afternoon,Medium,Highway,6,False,True,False,0.5417
+143,18.741231,79.534746,2023-12-13 19:08:29,RS_044,Basanthnagar Road,Medium,Fog,Evening,Low,Arterial,2,False,False,True,0.5397
+144,18.778268,79.452076,2023-12-21 22:17:46,RS_039,Ramagundam Road,Low,Clear,Night,Medium,Arterial,3,False,True,False,0.4066
+145,18.764586,79.466009,2023-12-23 20:22:37,RS_038,Ramagundam Road,High,Heavy Rain,Evening,High,Arterial,3,False,True,False,0.5227
+146,18.755484,79.51218,2024-01-02 11:02:32,RS_011,Rajiv Highway (SH-1),High,Rain,Morning,Medium,Highway,4,True,True,False,0.7909
+147,18.731525,79.506923,2024-01-07 08:15:17,RS_008,Rajiv Highway (SH-1),Low,Clear,Morning,High,Highway,5,True,False,True,0.6162
+148,18.728887,79.405684,2024-01-07 09:40:38,RS_035,Godavarikhani Road,Low,Rain,Morning,High,Arterial,3,False,False,True,0.5562
+149,18.743443,79.527565,2024-01-07 21:48:32,RS_044,Basanthnagar Road,Medium,Fog,Night,Low,Arterial,2,False,False,False,0.4605
+150,18.599939,79.347337,2024-01-09 18:02:43,RS_053,Dharmaram Road,Medium,Heavy Rain,Evening,Low,Local,2,True,True,False,0.3717
+151,18.734351,79.524193,2024-01-14 04:13:37,RS_043,Basanthnagar Road,Medium,Heavy Rain,Night,High,Arterial,2,False,False,False,0.6158
+152,18.637789,79.35922,2024-01-16 19:29:04,RS_027,SH-7,Medium,Fog,Evening,Low,Highway,4,False,False,False,0.4559
+153,18.59851,79.347609,2024-01-21 15:48:17,RS_053,Dharmaram Road,Medium,Clear,Afternoon,Low,Local,2,True,True,False,0.4142
+154,18.628281,79.36516,2024-01-23 13:48:53,RS_026,SH-7,Medium,Clear,Afternoon,Medium,Highway,4,True,False,False,0.3741
+155,18.76195,79.46914,2024-01-24 05:15:24,RS_038,Ramagundam Road,Medium,Fog,Night,Medium,Arterial,3,False,True,False,0.57
+156,18.671871,79.417655,2024-01-24 07:07:00,RS_003,Rajiv Highway (SH-1),Low,Clear,Morning,High,Highway,6,False,False,True,0.3573
+157,18.630659,79.43895,2024-01-26 03:53:17,RS_047,Manthani Road,Low,Heavy Rain,Night,Medium,Arterial,2,False,False,True,0.5587
+158,18.574687,79.225592,2024-01-28 23:41:17,RS_019,SH-1 Peddapalli-Karimnagar,Medium,Fog,Night,Medium,Highway,4,False,True,False,0.6423
+159,18.618318,79.382353,2024-02-03 16:52:49,RS_026,SH-7,Low,Clear,Afternoon,High,Highway,4,True,False,False,0.2582
+160,18.642382,79.474833,2024-02-06 18:43:57,RS_049,Manthani Road,Medium,Rain,Evening,Low,Arterial,2,False,True,True,0.5779
+161,18.581944,79.243595,2024-02-13 03:18:10,RS_018,SH-1 Peddapalli-Karimnagar,Low,Rain,Night,Medium,Highway,4,False,False,True,0.526
+162,18.753116,79.458277,2024-02-13 17:57:01,RS_037,Godavarikhani Road,High,Rain,Evening,Medium,Arterial,4,False,False,False,0.4127
+163,18.676582,79.336852,2024-02-14 11:47:52,RS_029,SH-7,Low,Clear,Morning,Medium,Highway,4,False,False,True,0.3424
+164,18.709496,79.372034,2024-02-16 23:01:31,RS_034,Godavarikhani Road,Medium,Clear,Night,Medium,Arterial,2,False,False,False,0.338
+165,18.698438,79.35033,2024-02-17 21:13:33,RS_030,SH-7,Medium,Clear,Night,High,Highway,4,False,False,True,0.4213
+166,18.683392,79.343712,2024-02-22 06:21:51,RS_030,SH-7,Low,Rain,Morning,Medium,Highway,4,False,False,True,0.4298
+167,18.64691,79.49265,2024-02-22 08:19:17,RS_049,Manthani Road,Medium,Fog,Morning,High,Arterial,2,False,True,False,0.3767
+168,18.666081,79.375941,2024-02-22 11:42:06,RS_032,Godavarikhani Road,Low,Clear,Morning,Medium,Arterial,2,True,False,True,0.3244
+169,18.686044,79.427765,2024-02-29 20:15:29,RS_004,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,6,True,False,True,0.5622
+170,18.663948,79.411345,2024-03-06 19:12:09,RS_003,Rajiv Highway (SH-1),Low,Clear,Evening,Medium,Highway,6,False,False,True,0.4469
+171,18.779577,79.44883,2024-03-09 19:01:07,RS_013,Rajiv Highway (SH-1),High,Clear,Evening,Low,Highway,6,True,False,False,0.6737
+172,18.709044,79.461593,2024-03-13 20:10:52,RS_006,Rajiv Highway (SH-1),High,Rain,Evening,High,Highway,6,False,True,True,0.7171
+173,18.732572,79.515469,2024-03-18 10:49:13,RS_008,Rajiv Highway (SH-1),Medium,Clear,Morning,Medium,Highway,5,True,False,False,0.5649
+174,18.644722,79.348495,2024-03-18 20:56:08,RS_027,SH-7,Low,Clear,Evening,Medium,Highway,4,False,False,False,0.2874
+175,18.675345,79.416151,2024-03-20 22:24:41,RS_003,Rajiv Highway (SH-1),Low,Fog,Night,Medium,Highway,6,False,False,False,0.5736
+176,18.737972,79.522879,2024-03-22 09:24:26,RS_043,Basanthnagar Road,Low,Clear,Morning,High,Arterial,2,False,False,False,0.3295
+177,18.590877,79.264124,2024-03-23 07:26:40,RS_017,SH-1 Peddapalli-Karimnagar,Low,Clear,Morning,Medium,Highway,4,False,False,False,0.3233
+178,18.592049,79.280678,2024-03-24 20:20:30,RS_016,SH-1 Peddapalli-Karimnagar,High,Rain,Evening,High,Highway,4,False,False,True,0.6414
+179,18.774146,79.464038,2024-03-28 20:17:56,RS_013,Rajiv Highway (SH-1),Medium,Rain,Evening,High,Highway,6,True,False,True,0.8149
+180,18.58376,79.243028,2024-04-02 10:16:56,RS_018,SH-1 Peddapalli-Karimnagar,Low,Clear,Morning,High,Highway,4,False,False,True,0.3863
+181,18.588442,79.265457,2024-04-04 11:24:43,RS_017,SH-1 Peddapalli-Karimnagar,Medium,Clear,Morning,Low,Highway,4,False,False,False,0.2254
+182,18.689889,79.357077,2024-04-04 15:17:00,RS_033,Godavarikhani Road,Medium,Heavy Rain,Afternoon,Medium,Arterial,2,False,False,False,0.5168
+183,18.732191,79.512882,2024-04-08 20:34:24,RS_008,Rajiv Highway (SH-1),Medium,Clear,Evening,Low,Highway,5,True,False,False,0.5734
+184,18.727607,79.403625,2024-04-11 00:44:10,RS_035,Godavarikhani Road,Medium,Clear,Night,High,Arterial,3,False,False,True,0.5117
+185,18.647016,79.404039,2024-04-11 02:11:25,RS_002,Rajiv Highway (SH-1),Medium,Clear,Night,Low,Highway,4,False,False,False,0.4268
+186,18.736706,79.50669,2024-04-12 19:04:50,RS_042,Basanthnagar Road,High,Clear,Evening,Medium,Arterial,2,False,True,False,0.3776
+187,18.696673,79.352657,2024-04-17 17:13:53,RS_033,Godavarikhani Road,Medium,Rain,Evening,Low,Arterial,2,False,False,False,0.43
+188,18.606105,79.339217,2024-04-19 11:38:05,RS_015,SH-1 Peddapalli-Karimnagar,Low,Clear,Morning,High,Highway,4,False,False,False,0.2734
+189,18.741435,79.430381,2024-04-22 04:18:29,RS_036,Godavarikhani Road,High,Clear,Night,Medium,Arterial,2,True,False,False,0.434
+190,18.675802,79.57451,2024-04-23 12:47:13,RS_052,Manthani Road,Low,Rain,Afternoon,Low,Arterial,2,False,True,False,0.347
+191,18.746887,79.53909,2024-04-27 06:02:15,RS_010,Rajiv Highway (SH-1),High,Clear,Morning,Medium,Highway,4,False,False,False,0.5704
+192,18.619324,79.392902,2024-04-27 08:53:18,RS_045,Manthani Road,High,Clear,Morning,High,Arterial,2,True,True,True,0.4308
+193,18.715477,79.375619,2024-04-28 19:23:39,RS_034,Godavarikhani Road,Medium,Clear,Evening,High,Arterial,2,False,False,True,0.4956
+194,18.608724,79.358752,2024-04-30 19:09:43,RS_014,SH-1 Peddapalli-Karimnagar,High,Clear,Evening,Low,Highway,4,False,True,False,0.4831
+195,18.749524,79.534611,2024-05-02 18:28:19,RS_010,Rajiv Highway (SH-1),Low,Clear,Evening,High,Highway,4,False,False,True,0.645
+196,18.76183,79.466854,2024-05-06 22:34:43,RS_038,Ramagundam Road,High,Clear,Night,Medium,Arterial,3,False,True,False,0.484
+197,18.586269,79.265765,2024-05-13 05:31:18,RS_017,SH-1 Peddapalli-Karimnagar,High,Clear,Night,Medium,Highway,4,False,False,False,0.4463
+198,18.693427,79.355496,2024-05-13 20:12:33,RS_033,Godavarikhani Road,Low,Rain,Evening,Medium,Arterial,2,False,False,False,0.4661
+199,18.739338,79.530566,2024-05-14 03:14:54,RS_009,Rajiv Highway (SH-1),Medium,Fog,Night,Low,Highway,4,False,False,False,0.6407
+200,18.756499,79.515623,2024-05-14 16:41:22,RS_011,Rajiv Highway (SH-1),High,Rain,Afternoon,Medium,Highway,4,True,True,False,0.8182
+201,18.681426,79.421204,2024-05-18 14:27:09,RS_004,Rajiv Highway (SH-1),Medium,Rain,Afternoon,Medium,Highway,6,True,False,True,0.5944
+202,18.560513,79.294313,2024-05-19 20:20:11,RS_056,Dharmaram Road,Medium,Heavy Rain,Evening,Low,Local,2,False,True,True,0.535
+203,18.605705,79.357335,2024-05-28 06:58:07,RS_059,Peddapalli Ring Road,Low,Clear,Morning,Medium,Arterial,4,False,False,False,0.1574
+204,18.780651,79.451094,2024-05-31 14:28:21,RS_013,Rajiv Highway (SH-1),High,Rain,Afternoon,High,Highway,6,True,False,False,0.7357
+205,18.619581,79.391093,2024-06-01 11:07:33,RS_045,Manthani Road,Medium,Rain,Morning,High,Arterial,2,True,True,True,0.5829
+206,18.618053,79.382497,2024-06-01 18:38:57,RS_026,SH-7,Medium,Fog,Evening,Medium,Highway,4,True,False,True,0.604
+207,18.624861,79.371953,2024-06-04 08:58:53,RS_026,SH-7,High,Rain,Morning,High,Highway,4,True,False,True,0.5401
+208,18.609677,79.35724,2024-06-06 01:22:51,RS_014,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,Low,Highway,4,False,True,False,0.3723
+209,18.576868,79.229931,2024-06-08 20:54:58,RS_018,SH-1 Peddapalli-Karimnagar,Low,Rain,Evening,Low,Highway,4,False,False,True,0.5431
+210,18.777024,79.452552,2024-06-09 12:54:21,RS_039,Ramagundam Road,Medium,Rain,Afternoon,High,Arterial,3,False,True,False,0.5303
+211,18.631732,79.393357,2024-06-10 13:12:38,RS_001,Rajiv Highway (SH-1),Low,Rain,Afternoon,Medium,Highway,6,False,True,False,0.5374
+212,18.697061,79.44619,2024-06-12 14:46:55,RS_005,Rajiv Highway (SH-1),High,Rain,Afternoon,Medium,Highway,4,False,False,False,0.6126
+213,18.77071,79.457198,2024-06-14 12:35:57,RS_039,Ramagundam Road,High,Clear,Afternoon,Low,Arterial,3,False,True,False,0.2329
+214,18.583544,79.329397,2024-06-14 20:06:27,RS_054,Dharmaram Road,Medium,Clear,Evening,Low,Local,2,False,False,False,0.1583
+215,18.699106,79.44469,2024-06-16 20:17:53,RS_005,Rajiv Highway (SH-1),High,Clear,Evening,High,Highway,4,False,False,True,0.5449
+216,18.738718,79.532859,2024-06-18 05:29:17,RS_009,Rajiv Highway (SH-1),High,Rain,Night,Low,Highway,4,False,False,False,0.6888
+217,18.538879,79.264293,2024-06-18 10:37:19,RS_057,Dharmaram Road,Low,Clear,Morning,Medium,Local,2,False,True,True,0.3245
+218,18.725324,79.496363,2024-06-22 06:52:45,RS_008,Rajiv Highway (SH-1),Medium,Heavy Rain,Morning,Medium,Highway,5,True,False,False,0.7737
+219,18.617461,79.385462,2024-06-23 18:29:07,RS_001,Rajiv Highway (SH-1),Medium,Rain,Evening,Medium,Highway,6,False,True,False,0.6053
+220,18.632641,79.390495,2024-06-28 18:20:45,RS_061,Peddapalli North Link,High,Rain,Evening,Medium,Arterial,2,True,True,True,0.6334
+221,18.589553,79.335084,2024-07-03 23:03:18,RS_054,Dharmaram Road,Medium,Heavy Rain,Night,Low,Local,2,False,False,False,0.3681
+222,18.695353,79.441265,2024-07-04 14:25:29,RS_005,Rajiv Highway (SH-1),Low,Clear,Afternoon,High,Highway,4,False,False,False,0.348
+223,18.714375,79.379825,2024-07-08 17:18:39,RS_034,Godavarikhani Road,Low,Clear,Evening,Low,Arterial,2,False,False,True,0.3666
+224,18.630489,79.361838,2024-07-10 14:01:11,RS_027,SH-7,Low,Rain,Afternoon,Low,Highway,4,False,False,False,0.3134
+225,18.564988,79.229801,2024-07-13 15:32:25,RS_025,Karimnagar-Peddapalli Bypass,Low,Rain,Afternoon,Low,Highway,4,True,False,False,0.4396
+226,18.711987,79.373791,2024-07-22 14:34:07,RS_034,Godavarikhani Road,Medium,Clear,Afternoon,Medium,Arterial,2,False,False,False,0.3068
+227,18.651603,79.393106,2024-07-22 15:03:36,RS_031,Godavarikhani Road,Low,Rain,Afternoon,Low,Arterial,2,True,False,False,0.4439
+228,18.603961,79.317873,2024-07-22 22:58:52,RS_015,SH-1 Peddapalli-Karimnagar,Low,Rain,Night,High,Highway,4,False,False,False,0.4298
+229,18.740441,79.425765,2024-07-27 00:04:19,RS_036,Godavarikhani Road,Medium,Rain,Night,Medium,Arterial,2,True,False,False,0.4601
+230,18.649586,79.401595,2024-07-27 19:47:39,RS_002,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,4,False,False,True,0.4212
+231,18.650953,79.338995,2024-07-30 02:24:43,RS_028,SH-7,Low,Clear,Night,Low,Highway,4,True,True,False,0.5058
+232,18.559443,79.20759,2024-08-06 17:37:44,RS_025,Karimnagar-Peddapalli Bypass,Medium,Rain,Evening,Low,Highway,4,True,False,False,0.5085
+233,18.696378,79.445246,2024-08-08 22:43:29,RS_005,Rajiv Highway (SH-1),Medium,Rain,Night,High,Highway,4,False,False,False,0.459
+234,18.766054,79.464221,2024-08-13 17:36:44,RS_038,Ramagundam Road,Medium,Clear,Evening,Low,Arterial,3,False,True,True,0.48
+235,18.652165,79.403554,2024-08-14 20:32:38,RS_002,Rajiv Highway (SH-1),Low,Heavy Rain,Evening,High,Highway,4,False,False,True,0.6862
+236,18.632349,79.393731,2024-08-15 18:31:02,RS_001,Rajiv Highway (SH-1),Medium,Rain,Evening,High,Highway,6,False,True,True,0.7083
+237,18.651098,79.339683,2024-08-17 06:35:51,RS_028,SH-7,Medium,Heavy Rain,Morning,Medium,Highway,4,True,True,False,0.5391
+238,18.61876,79.383264,2024-08-17 10:15:40,RS_060,Peddapalli North Link,Low,Clear,Morning,Medium,Arterial,2,False,False,False,0.1912
+239,18.733837,79.511168,2024-08-17 21:51:20,RS_043,Basanthnagar Road,Medium,Rain,Night,Low,Arterial,2,False,False,False,0.488
+240,18.67935,79.422819,2024-08-18 17:26:26,RS_004,Rajiv Highway (SH-1),Low,Rain,Evening,Medium,Highway,6,True,False,True,0.5881
+241,18.562262,79.211665,2024-08-21 17:46:57,RS_025,Karimnagar-Peddapalli Bypass,Low,Clear,Evening,High,Highway,4,True,False,True,0.5258
+242,18.676292,79.37103,2024-08-23 11:31:23,RS_032,Godavarikhani Road,High,Clear,Morning,Medium,Arterial,2,True,False,False,0.4223
+243,18.688466,79.358471,2024-08-26 18:21:46,RS_033,Godavarikhani Road,Medium,Rain,Evening,Medium,Arterial,2,False,False,False,0.4345
+244,18.765257,79.492305,2024-08-26 21:15:37,RS_012,Rajiv Highway (SH-1),Medium,Rain,Night,Medium,Highway,5,False,False,False,0.6373
+245,18.609286,79.37037,2024-08-28 17:54:56,RS_058,Peddapalli Ring Road,Low,Heavy Rain,Evening,Low,Arterial,4,False,False,False,0.3676
+246,18.614145,79.365381,2024-09-04 17:41:27,RS_014,SH-1 Peddapalli-Karimnagar,Low,Rain,Evening,Medium,Highway,4,False,True,True,0.5653
+247,18.7044,79.451628,2024-09-07 19:52:11,RS_005,Rajiv Highway (SH-1),Medium,Rain,Evening,Medium,Highway,4,False,False,True,0.4836
+248,18.617849,79.390731,2024-09-08 06:29:58,RS_045,Manthani Road,Medium,Heavy Rain,Morning,Medium,Arterial,2,True,True,True,0.6284
+249,18.693236,79.437145,2024-09-09 20:11:23,RS_004,Rajiv Highway (SH-1),High,Rain,Evening,Medium,Highway,6,True,False,True,0.619
+250,18.653121,79.38521,2024-09-14 06:24:16,RS_031,Godavarikhani Road,Low,Heavy Rain,Morning,Medium,Arterial,2,True,False,False,0.5687
+251,18.630343,79.362416,2024-09-14 17:37:37,RS_027,SH-7,Low,Rain,Evening,High,Highway,4,False,False,True,0.6821
+252,18.575808,79.231008,2024-09-14 17:49:52,RS_018,SH-1 Peddapalli-Karimnagar,Low,Rain,Evening,Medium,Highway,4,False,False,True,0.5389
+253,18.571844,79.248284,2024-09-24 21:32:50,RS_024,Karimnagar-Peddapalli Bypass,Medium,Rain,Night,Low,Highway,6,False,False,False,0.5351
+254,18.614807,79.384543,2024-09-25 22:07:41,RS_045,Manthani Road,Medium,Clear,Night,Medium,Arterial,2,True,True,False,0.4286
+255,18.54833,79.277037,2024-09-27 08:15:16,RS_057,Dharmaram Road,Medium,Rain,Morning,Medium,Local,2,False,True,False,0.3496
+256,18.743742,79.49578,2024-09-28 08:41:04,RS_042,Basanthnagar Road,Medium,Fog,Morning,Medium,Arterial,2,False,True,True,0.5765
+257,18.774918,79.464403,2024-09-28 10:42:04,RS_013,Rajiv Highway (SH-1),Medium,Rain,Morning,High,Highway,6,True,False,True,0.8518
+258,18.596874,79.320186,2024-09-28 23:00:30,RS_021,Karimnagar-Peddapalli Bypass,Medium,Rain,Night,Medium,Highway,6,False,True,False,0.6101
+259,18.670702,79.569637,2024-10-02 12:33:52,RS_052,Manthani Road,Low,Clear,Afternoon,Low,Arterial,2,False,True,False,0.3355
+260,18.675097,79.337771,2024-10-03 07:18:07,RS_029,SH-7,Low,Clear,Morning,Medium,Highway,4,False,False,False,0.2433
+261,18.736786,79.524483,2024-10-03 23:35:55,RS_009,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,4,False,False,False,0.6896
+262,18.776733,79.459557,2024-10-05 03:07:18,RS_013,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,6,True,False,False,0.6642
+263,18.661204,79.536406,2024-10-05 06:25:32,RS_051,Manthani Road,Medium,Clear,Morning,Medium,Arterial,2,True,False,False,0.3083
+264,18.677192,79.581158,2024-10-07 18:17:05,RS_052,Manthani Road,Low,Clear,Evening,Medium,Arterial,2,False,True,True,0.4953
+265,18.774562,79.467357,2024-10-08 12:36:23,RS_013,Rajiv Highway (SH-1),Low,Fog,Afternoon,High,Highway,6,True,False,True,0.6714
+266,18.602576,79.321456,2024-10-11 02:59:36,RS_015,SH-1 Peddapalli-Karimnagar,Low,Clear,Night,Low,Highway,4,False,False,False,0.405
+267,18.58301,79.245416,2024-10-14 07:45:17,RS_017,SH-1 Peddapalli-Karimnagar,Medium,Clear,Morning,High,Highway,4,False,False,True,0.3333
+268,18.580124,79.239193,2024-10-20 05:41:06,RS_018,SH-1 Peddapalli-Karimnagar,High,Clear,Night,High,Highway,4,False,False,True,0.527
+269,18.651507,79.508786,2024-10-21 19:12:24,RS_050,Manthani Road,Low,Clear,Evening,Low,Arterial,2,False,False,False,0.2608
+270,18.686911,79.43251,2024-10-22 18:58:54,RS_004,Rajiv Highway (SH-1),Medium,Clear,Evening,Medium,Highway,6,True,False,True,0.4735
+271,18.669506,79.413721,2024-10-23 20:02:46,RS_003,Rajiv Highway (SH-1),High,Clear,Evening,Medium,Highway,6,False,False,False,0.3533
+272,18.581812,79.24398,2024-11-05 17:19:42,RS_018,SH-1 Peddapalli-Karimnagar,Low,Clear,Evening,Medium,Highway,4,False,False,False,0.3293
+273,18.768838,79.481829,2024-11-07 19:39:51,RS_012,Rajiv Highway (SH-1),Medium,Clear,Evening,Medium,Highway,5,False,False,False,0.4933
+274,18.619536,79.387888,2024-11-08 15:46:10,RS_045,Manthani Road,High,Rain,Afternoon,High,Arterial,2,True,True,False,0.4733
+275,18.63313,79.452576,2024-11-09 21:45:35,RS_048,Manthani Road,High,Fog,Night,High,Arterial,2,False,True,False,0.6318
+276,18.697077,79.446144,2024-11-11 14:39:01,RS_005,Rajiv Highway (SH-1),Medium,Clear,Afternoon,High,Highway,4,False,False,False,0.3708
+277,18.72455,79.493564,2024-11-11 17:40:38,RS_007,Rajiv Highway (SH-1),Medium,Fog,Evening,Medium,Highway,6,False,False,False,0.6759
+278,18.712389,79.461369,2024-11-13 19:23:58,RS_006,Rajiv Highway (SH-1),Medium,Rain,Evening,Medium,Highway,6,False,True,True,0.6746
+279,18.625417,79.405772,2024-11-14 01:26:55,RS_046,Manthani Road,Low,Clear,Night,Low,Arterial,2,False,True,False,0.3053
+280,18.586261,79.24791,2024-11-16 23:58:08,RS_017,SH-1 Peddapalli-Karimnagar,High,Rain,Night,Low,Highway,4,False,False,False,0.4339
+281,18.712379,79.463373,2024-11-20 10:09:04,RS_006,Rajiv Highway (SH-1),Medium,Clear,Morning,High,Highway,6,False,True,True,0.5663
+282,18.656732,79.332599,2024-11-27 07:25:44,RS_028,SH-7,Medium,Fog,Morning,High,Highway,4,True,True,True,0.6485
+283,18.546091,79.274302,2024-11-28 09:05:58,RS_057,Dharmaram Road,Medium,Heavy Rain,Morning,Low,Local,2,False,True,True,0.4928
+284,18.752481,79.527489,2024-11-28 15:57:53,RS_010,Rajiv Highway (SH-1),Medium,Clear,Afternoon,High,Highway,4,False,False,True,0.5309
+285,18.754075,79.481803,2024-11-29 14:35:35,RS_041,Basanthnagar Road,Low,Fog,Afternoon,Low,Arterial,2,True,False,False,0.3915
+286,18.654741,79.518086,2024-11-30 06:08:46,RS_050,Manthani Road,Medium,Clear,Morning,Medium,Arterial,2,False,False,True,0.3579
+287,18.750545,79.451811,2024-11-30 16:43:39,RS_037,Godavarikhani Road,Medium,Fog,Afternoon,High,Arterial,4,False,False,True,0.5174
+288,18.737614,79.514248,2024-12-04 07:08:49,RS_043,Basanthnagar Road,Low,Clear,Morning,Low,Arterial,2,False,False,False,0.3877
+289,18.580527,79.263012,2024-12-06 20:46:11,RS_023,Karimnagar-Peddapalli Bypass,Low,Clear,Evening,Medium,Highway,5,False,False,False,0.3888
+290,18.749238,79.482266,2024-12-11 03:00:33,RS_041,Basanthnagar Road,Medium,Fog,Night,Medium,Arterial,2,True,False,False,0.5393
+291,18.583678,79.275885,2024-12-16 11:13:30,RS_023,Karimnagar-Peddapalli Bypass,High,Fog,Morning,High,Highway,5,False,False,True,0.4548
+292,18.591952,79.304995,2024-12-16 21:01:42,RS_021,Karimnagar-Peddapalli Bypass,Medium,Clear,Night,Low,Highway,6,False,True,False,0.34
+293,18.663562,79.411779,2024-12-22 22:39:52,RS_003,Rajiv Highway (SH-1),High,Fog,Night,Medium,Highway,6,False,False,False,0.5311
+294,18.599205,79.326243,2024-12-25 07:59:20,RS_021,Karimnagar-Peddapalli Bypass,Medium,Fog,Morning,Medium,Highway,6,False,True,False,0.4729
+295,18.687895,79.360673,2024-12-25 20:37:06,RS_033,Godavarikhani Road,High,Clear,Evening,High,Arterial,2,False,False,True,0.3371
+296,18.744421,79.545785,2024-12-26 12:05:25,RS_009,Rajiv Highway (SH-1),Medium,Rain,Afternoon,High,Highway,4,False,False,False,0.7275
+297,18.585979,79.250331,2024-12-28 10:47:56,RS_017,SH-1 Peddapalli-Karimnagar,Medium,Fog,Morning,Medium,Highway,4,False,False,True,0.5243
+298,18.674616,79.571211,2024-12-28 23:10:04,RS_052,Manthani Road,Medium,Clear,Night,Medium,Arterial,2,False,True,False,0.3698
+299,18.761336,79.496737,2024-12-31 14:16:47,RS_012,Rajiv Highway (SH-1),Medium,Clear,Afternoon,High,Highway,5,False,False,True,0.5846
+300,18.735595,79.52104,2025-01-07 18:46:03,RS_009,Rajiv Highway (SH-1),High,Clear,Evening,Low,Highway,4,False,False,True,0.7081
+301,18.744518,79.437395,2025-01-08 08:20:18,RS_036,Godavarikhani Road,Low,Rain,Morning,High,Arterial,2,True,False,False,0.4415
+302,18.601717,79.313451,2025-01-16 17:45:54,RS_016,SH-1 Peddapalli-Karimnagar,Low,Fog,Evening,Low,Highway,4,False,False,True,0.5351
+303,18.550145,79.281004,2025-01-19 17:07:53,RS_056,Dharmaram Road,Low,Clear,Evening,Low,Local,2,False,True,False,0.2484
+304,18.757697,79.467797,2025-01-20 09:28:02,RS_037,Godavarikhani Road,Low,Heavy Rain,Morning,Medium,Arterial,4,False,False,True,0.5248
+305,18.675807,79.33856,2025-01-22 23:41:31,RS_029,SH-7,Medium,Clear,Night,Medium,Highway,4,False,False,False,0.3056
+306,18.775324,79.455164,2025-01-23 21:06:40,RS_039,Ramagundam Road,Low,Fog,Night,Medium,Arterial,3,False,True,False,0.4979
+307,18.621631,79.384798,2025-01-25 02:54:50,RS_001,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,6,False,True,False,0.5739
+308,18.759783,79.479502,2025-01-28 11:05:46,RS_041,Basanthnagar Road,Medium,Clear,Morning,Medium,Arterial,2,True,False,False,0.2543
+309,18.683325,79.425236,2025-01-31 10:14:01,RS_004,Rajiv Highway (SH-1),High,Clear,Morning,Low,Highway,6,True,False,True,0.4753
+310,18.675686,79.338294,2025-02-08 22:56:02,RS_029,SH-7,Low,Clear,Night,Medium,Highway,4,False,False,True,0.4496
+311,18.62652,79.415369,2025-02-13 09:47:41,RS_046,Manthani Road,Low,Clear,Morning,Medium,Arterial,2,False,True,True,0.3639
+312,18.77807,79.453489,2025-02-22 18:17:25,RS_013,Rajiv Highway (SH-1),Medium,Fog,Evening,High,Highway,6,True,False,False,0.7336
+313,18.741443,79.499375,2025-02-23 20:05:22,RS_042,Basanthnagar Road,Medium,Clear,Evening,Low,Arterial,2,False,True,True,0.5001
+314,18.766623,79.463189,2025-02-24 18:20:54,RS_040,Basanthnagar Road,Low,Clear,Evening,Low,Arterial,2,False,False,True,0.3314
+315,18.777293,79.455122,2025-02-24 21:23:18,RS_039,Ramagundam Road,Medium,Clear,Night,Medium,Arterial,3,False,True,False,0.4011
+316,18.593665,79.342853,2025-02-26 17:28:58,RS_053,Dharmaram Road,Low,Clear,Evening,Low,Local,2,True,True,False,0.3059
+317,18.615992,79.385262,2025-02-28 16:39:44,RS_060,Peddapalli North Link,Low,Clear,Afternoon,Low,Arterial,2,False,False,False,0.2068
+318,18.622169,79.398218,2025-02-28 21:46:52,RS_045,Manthani Road,Medium,Rain,Night,Low,Arterial,2,True,True,False,0.5226
+319,18.608068,79.36341,2025-03-03 22:39:18,RS_059,Peddapalli Ring Road,Medium,Clear,Night,High,Arterial,4,False,False,False,0.2606
+320,18.610649,79.357432,2025-03-04 20:27:11,RS_014,SH-1 Peddapalli-Karimnagar,High,Clear,Evening,Medium,Highway,4,False,True,True,0.4411
+321,18.564836,79.216112,2025-03-05 16:08:03,RS_025,Karimnagar-Peddapalli Bypass,High,Clear,Afternoon,Medium,Highway,4,True,False,False,0.2792
+322,18.601008,79.351135,2025-03-05 23:14:29,RS_053,Dharmaram Road,Medium,Clear,Night,Low,Local,2,True,True,False,0.4853
+323,18.649653,79.393494,2025-03-12 03:55:18,RS_031,Godavarikhani Road,Low,Heavy Rain,Night,Low,Arterial,2,True,False,False,0.4674
+324,18.628168,79.422597,2025-03-15 10:32:33,RS_046,Manthani Road,Medium,Clear,Morning,Medium,Arterial,2,False,True,False,0.3583
+325,18.629542,79.429982,2025-03-17 04:27:40,RS_047,Manthani Road,Low,Clear,Night,High,Arterial,2,False,False,False,0.3798
+326,18.659359,79.41065,2025-03-20 14:37:34,RS_003,Rajiv Highway (SH-1),Medium,Clear,Afternoon,Medium,Highway,6,False,False,False,0.44
+327,18.571757,79.317238,2025-03-22 04:27:19,RS_055,Dharmaram Road,High,Clear,Night,Low,Local,2,False,True,False,0.3548
+328,18.731884,79.408029,2025-03-24 23:03:48,RS_035,Godavarikhani Road,Medium,Clear,Night,Low,Arterial,3,False,False,True,0.4247
+329,18.694328,79.440422,2025-03-25 07:56:53,RS_005,Rajiv Highway (SH-1),Low,Fog,Morning,Low,Highway,4,False,False,True,0.4381
+330,18.690263,79.436688,2025-03-26 18:42:55,RS_004,Rajiv Highway (SH-1),Medium,Rain,Evening,Medium,Highway,6,True,False,True,0.565
+331,18.606927,79.366038,2025-03-28 05:25:37,RS_059,Peddapalli Ring Road,Low,Fog,Night,Low,Arterial,4,False,False,False,0.3964
+332,18.681897,79.420633,2025-03-28 18:35:47,RS_004,Rajiv Highway (SH-1),High,Clear,Evening,High,Highway,6,True,False,True,0.5051
+333,18.767017,79.46291,2025-04-10 22:17:20,RS_038,Ramagundam Road,Medium,Clear,Night,Low,Arterial,3,False,True,False,0.3571
+334,18.628215,79.415632,2025-04-11 01:26:56,RS_046,Manthani Road,Low,Rain,Night,High,Arterial,2,False,True,False,0.4385
+335,18.597553,79.285286,2025-04-13 17:19:44,RS_016,SH-1 Peddapalli-Karimnagar,Low,Clear,Evening,High,Highway,4,False,False,True,0.3653
+336,18.702955,79.453048,2025-04-17 04:25:33,RS_005,Rajiv Highway (SH-1),Medium,Clear,Night,High,Highway,4,False,False,False,0.3335
+337,18.56604,79.218043,2025-04-18 06:56:27,RS_019,SH-1 Peddapalli-Karimnagar,Low,Clear,Morning,Medium,Highway,4,False,True,False,0.3053
+338,18.607913,79.365186,2025-04-19 18:44:34,RS_059,Peddapalli Ring Road,Medium,Fog,Evening,Medium,Arterial,4,False,False,True,0.4589
+339,18.703695,79.454945,2025-04-21 02:31:57,RS_006,Rajiv Highway (SH-1),High,Heavy Rain,Night,High,Highway,6,False,True,False,0.5538
+340,18.615827,79.386528,2025-04-22 12:48:22,RS_045,Manthani Road,High,Clear,Afternoon,Medium,Arterial,2,True,True,False,0.427
+341,18.663618,79.330674,2025-04-25 15:23:11,RS_029,SH-7,Low,Clear,Afternoon,Low,Highway,4,False,False,False,0.2784
+342,18.740713,79.536468,2025-04-27 05:29:45,RS_009,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,4,False,False,False,0.5536
+343,18.549717,79.285338,2025-04-29 11:12:18,RS_056,Dharmaram Road,Low,Rain,Morning,High,Local,2,False,True,True,0.3756
+344,18.701422,79.34923,2025-05-02 19:42:04,RS_030,SH-7,Medium,Clear,Evening,Low,Highway,4,False,False,True,0.4594
+345,18.76563,79.468369,2025-05-04 17:05:59,RS_040,Basanthnagar Road,Low,Clear,Evening,Low,Arterial,2,False,False,False,0.3793
+346,18.605621,79.342383,2025-05-05 19:48:52,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Clear,Evening,High,Highway,4,False,False,True,0.374
+347,18.761737,79.498125,2025-05-06 07:27:32,RS_011,Rajiv Highway (SH-1),Low,Clear,Morning,Low,Highway,4,True,True,False,0.7664
+348,18.710487,79.3691,2025-05-06 15:56:14,RS_034,Godavarikhani Road,Medium,Rain,Afternoon,Medium,Arterial,2,False,False,False,0.4346
+349,18.631105,79.388953,2025-05-07 15:58:55,RS_001,Rajiv Highway (SH-1),Medium,Clear,Afternoon,High,Highway,6,False,True,True,0.5755
+350,18.751389,79.521464,2025-05-09 20:18:09,RS_011,Rajiv Highway (SH-1),High,Fog,Evening,Medium,Highway,4,True,True,True,0.95
+351,18.536137,79.262676,2025-05-09 22:06:55,RS_057,Dharmaram Road,Low,Clear,Night,Low,Local,2,False,True,True,0.2412
+352,18.62898,79.367841,2025-05-13 05:26:31,RS_026,SH-7,Low,Clear,Night,Low,Highway,4,True,False,False,0.3707
+353,18.772722,79.467682,2025-05-17 22:46:12,RS_013,Rajiv Highway (SH-1),High,Rain,Night,Medium,Highway,6,True,False,True,0.8616
+354,18.711023,79.372232,2025-05-22 19:43:06,RS_034,Godavarikhani Road,Low,Clear,Evening,Medium,Arterial,2,False,False,True,0.4909
+355,18.648292,79.391856,2025-05-24 07:07:35,RS_031,Godavarikhani Road,High,Fog,Morning,Medium,Arterial,2,True,False,False,0.4427
+356,18.671169,79.413238,2025-05-26 19:58:22,RS_003,Rajiv Highway (SH-1),Low,Clear,Evening,Medium,Highway,6,False,False,True,0.3553
+357,18.689662,79.432891,2025-05-31 04:03:43,RS_004,Rajiv Highway (SH-1),Medium,Clear,Night,Medium,Highway,6,True,False,True,0.6222
+358,18.602286,79.343725,2025-05-31 18:40:36,RS_020,Karimnagar-Peddapalli Bypass,Low,Clear,Evening,Medium,Highway,6,False,False,True,0.3847
+359,18.702407,79.45641,2025-06-07 07:33:25,RS_006,Rajiv Highway (SH-1),Low,Clear,Morning,Medium,Highway,6,False,True,False,0.4342
+360,18.575726,79.256048,2025-06-10 11:32:00,RS_023,Karimnagar-Peddapalli Bypass,Low,Rain,Morning,High,Highway,5,False,False,True,0.4835
+361,18.723862,79.390386,2025-06-13 14:52:50,RS_035,Godavarikhani Road,Medium,Rain,Afternoon,Low,Arterial,3,False,False,False,0.4603
+362,18.610649,79.365849,2025-06-19 08:20:47,RS_014,SH-1 Peddapalli-Karimnagar,High,Rain,Morning,Medium,Highway,4,False,True,True,0.5474
+363,18.746498,79.492031,2025-06-24 11:32:16,RS_042,Basanthnagar Road,High,Fog,Morning,Medium,Arterial,2,False,True,True,0.537
+364,18.737588,79.519964,2025-06-30 18:28:34,RS_043,Basanthnagar Road,High,Rain,Evening,Medium,Arterial,2,False,False,True,0.4618
+365,18.740522,79.527572,2025-07-01 12:59:03,RS_044,Basanthnagar Road,Low,Clear,Afternoon,Low,Arterial,2,False,False,False,0.2482
+366,18.768683,79.462738,2025-07-01 20:13:55,RS_038,Ramagundam Road,High,Rain,Evening,Low,Arterial,3,False,True,False,0.4591
+367,18.698606,79.353685,2025-07-02 22:10:39,RS_033,Godavarikhani Road,Low,Rain,Night,Low,Arterial,2,False,False,False,0.4457
+368,18.764061,79.467447,2025-07-03 14:08:11,RS_038,Ramagundam Road,High,Fog,Afternoon,High,Arterial,3,False,True,False,0.5904
+369,18.741135,79.498265,2025-07-05 08:34:57,RS_042,Basanthnagar Road,High,Clear,Morning,Medium,Arterial,2,False,True,False,0.4042
+370,18.59746,79.330873,2025-07-05 09:52:33,RS_020,Karimnagar-Peddapalli Bypass,Medium,Clear,Morning,Medium,Highway,6,False,False,True,0.2792
+371,18.743201,79.433778,2025-07-09 21:17:56,RS_036,Godavarikhani Road,Medium,Clear,Night,Medium,Arterial,2,True,False,False,0.4442
+372,18.738856,79.531854,2025-07-11 08:45:18,RS_009,Rajiv Highway (SH-1),Medium,Rain,Morning,Medium,Highway,4,False,False,False,0.6082
+373,18.57183,79.245646,2025-07-11 23:22:22,RS_024,Karimnagar-Peddapalli Bypass,Medium,Rain,Night,High,Highway,6,False,False,False,0.5474
+374,18.563283,79.224732,2025-07-14 01:34:16,RS_025,Karimnagar-Peddapalli Bypass,High,Clear,Night,Low,Highway,4,True,False,False,0.4117
+375,18.709611,79.374565,2025-07-14 02:50:28,RS_034,Godavarikhani Road,High,Rain,Night,Low,Arterial,2,False,False,False,0.3804
+376,18.594206,79.291789,2025-07-14 09:33:45,RS_016,SH-1 Peddapalli-Karimnagar,Low,Heavy Rain,Morning,High,Highway,4,False,False,True,0.5083
+377,18.604828,79.355676,2025-07-16 18:45:09,RS_059,Peddapalli Ring Road,Medium,Rain,Evening,Low,Arterial,4,False,False,True,0.4039
+378,18.608034,79.34923,2025-07-16 21:51:30,RS_015,SH-1 Peddapalli-Karimnagar,High,Clear,Night,Medium,Highway,4,False,False,False,0.4285
+379,18.618464,79.381678,2025-07-17 20:34:02,RS_058,Peddapalli Ring Road,Medium,Rain,Evening,Low,Arterial,4,False,False,False,0.3855
+380,18.617405,79.383909,2025-07-20 14:35:20,RS_060,Peddapalli North Link,Medium,Rain,Afternoon,Medium,Arterial,2,False,False,False,0.3608
+381,18.574745,79.229077,2025-07-21 13:46:01,RS_018,SH-1 Peddapalli-Karimnagar,Low,Rain,Afternoon,High,Highway,4,False,False,False,0.4966
+382,18.59045,79.304819,2025-07-25 16:42:09,RS_021,Karimnagar-Peddapalli Bypass,Medium,Heavy Rain,Afternoon,Low,Highway,6,False,True,False,0.5432
+383,18.699785,79.447268,2025-07-26 11:41:27,RS_005,Rajiv Highway (SH-1),Low,Rain,Morning,Medium,Highway,4,False,False,True,0.5387
+384,18.58833,79.288516,2025-07-27 21:04:32,RS_022,Karimnagar-Peddapalli Bypass,Low,Clear,Night,Low,Highway,6,True,False,False,0.374
+385,18.703091,79.449745,2025-07-29 17:56:50,RS_005,Rajiv Highway (SH-1),Low,Clear,Evening,High,Highway,4,False,False,True,0.4956
+386,18.596914,79.296157,2025-07-29 20:48:34,RS_016,SH-1 Peddapalli-Karimnagar,High,Rain,Evening,High,Highway,4,False,False,False,0.5052
+387,18.746306,79.494563,2025-07-30 20:36:00,RS_042,Basanthnagar Road,Low,Heavy Rain,Evening,Medium,Arterial,2,False,True,True,0.7588
+388,18.607633,79.346168,2025-07-31 21:38:51,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Rain,Night,Medium,Highway,4,False,False,False,0.4393
+389,18.694434,79.440571,2025-08-07 23:20:05,RS_005,Rajiv Highway (SH-1),High,Heavy Rain,Night,Low,Highway,4,False,False,False,0.6002
+390,18.564892,79.218585,2025-08-08 21:08:54,RS_025,Karimnagar-Peddapalli Bypass,Medium,Clear,Night,Low,Highway,4,True,False,True,0.6313
+391,18.671182,79.414593,2025-08-10 09:13:26,RS_003,Rajiv Highway (SH-1),Medium,Clear,Morning,Medium,Highway,6,False,False,False,0.358
+392,18.775713,79.455351,2025-08-13 08:13:53,RS_039,Ramagundam Road,Medium,Clear,Morning,High,Arterial,3,False,True,True,0.4353
+393,18.755242,79.515351,2025-08-15 14:32:53,RS_011,Rajiv Highway (SH-1),High,Rain,Afternoon,Medium,Highway,4,True,True,False,0.8558
+394,18.616367,79.379422,2025-08-16 07:42:51,RS_058,Peddapalli Ring Road,High,Fog,Morning,Low,Arterial,4,False,False,False,0.4349
+395,18.729859,79.508796,2025-08-22 23:24:33,RS_008,Rajiv Highway (SH-1),High,Clear,Night,Low,Highway,5,True,False,False,0.6912
+396,18.596326,79.332667,2025-08-23 17:38:59,RS_020,Karimnagar-Peddapalli Bypass,Low,Rain,Evening,Medium,Highway,6,False,False,False,0.3947
+397,18.678811,79.422175,2025-08-28 00:34:14,RS_003,Rajiv Highway (SH-1),High,Rain,Night,High,Highway,6,False,False,False,0.6083
+398,18.744626,79.438922,2025-08-30 17:22:41,RS_036,Godavarikhani Road,Medium,Rain,Evening,Medium,Arterial,2,True,False,False,0.4554
+399,18.621584,79.385311,2025-08-31 18:01:02,RS_001,Rajiv Highway (SH-1),Medium,Clear,Evening,High,Highway,6,False,True,False,0.5981
+400,18.657829,79.406486,2025-09-01 19:03:31,RS_002,Rajiv Highway (SH-1),Low,Clear,Evening,Low,Highway,4,False,False,False,0.3226
+401,18.650113,79.342733,2025-09-01 20:28:40,RS_028,SH-7,Low,Clear,Evening,Medium,Highway,4,True,True,True,0.539
+402,18.564173,79.211637,2025-09-02 19:08:02,RS_025,Karimnagar-Peddapalli Bypass,Medium,Clear,Evening,Medium,Highway,4,True,False,True,0.5534
+403,18.667992,79.560341,2025-09-02 22:43:59,RS_052,Manthani Road,High,Rain,Night,Medium,Arterial,2,False,True,False,0.4725
+404,18.623816,79.374159,2025-09-05 20:31:25,RS_026,SH-7,Low,Rain,Evening,High,Highway,4,True,False,True,0.568
+405,18.757694,79.508101,2025-09-07 06:35:43,RS_011,Rajiv Highway (SH-1),High,Rain,Morning,Medium,Highway,4,True,True,True,0.819
+406,18.565925,79.219202,2025-09-11 14:06:05,RS_025,Karimnagar-Peddapalli Bypass,Medium,Clear,Afternoon,Medium,Highway,4,True,False,True,0.418
+407,18.762362,79.473514,2025-09-18 06:19:50,RS_041,Basanthnagar Road,Medium,Clear,Morning,Medium,Arterial,2,True,False,True,0.3401
+408,18.678619,79.579227,2025-09-18 07:30:01,RS_052,Manthani Road,Medium,Heavy Rain,Morning,High,Arterial,2,False,True,False,0.4914
+409,18.583252,79.328848,2025-09-18 07:42:42,RS_054,Dharmaram Road,Low,Heavy Rain,Morning,Medium,Local,2,False,False,True,0.406
+410,18.579455,79.233999,2025-09-19 15:37:07,RS_018,SH-1 Peddapalli-Karimnagar,Medium,Clear,Afternoon,High,Highway,4,False,False,False,0.4275
+411,18.705257,79.360965,2025-09-21 06:20:10,RS_034,Godavarikhani Road,Medium,Rain,Morning,Medium,Arterial,2,False,False,False,0.3693
+412,18.743748,79.540683,2025-09-29 13:16:12,RS_009,Rajiv Highway (SH-1),High,Fog,Afternoon,Low,Highway,4,False,False,True,0.7319
+413,18.64627,79.347785,2025-09-30 08:07:02,RS_028,SH-7,High,Rain,Morning,Low,Highway,4,True,True,False,0.5474
+414,18.71693,79.380666,2025-09-30 15:28:55,RS_034,Godavarikhani Road,Low,Heavy Rain,Afternoon,Low,Arterial,2,False,False,False,0.3817
+415,18.568765,79.241871,2025-10-03 22:41:26,RS_024,Karimnagar-Peddapalli Bypass,Low,Clear,Night,Low,Highway,6,False,False,False,0.3676
+416,18.626749,79.428383,2025-10-09 17:10:49,RS_047,Manthani Road,Low,Clear,Evening,Low,Arterial,2,False,False,True,0.4309
+417,18.605123,79.355863,2025-10-12 12:29:19,RS_053,Dharmaram Road,High,Clear,Afternoon,Medium,Local,2,True,True,True,0.4091
+418,18.652709,79.403051,2025-10-12 19:59:42,RS_002,Rajiv Highway (SH-1),Low,Clear,Evening,High,Highway,4,False,False,True,0.5543
+419,18.543147,79.273913,2025-10-14 08:49:25,RS_057,Dharmaram Road,Medium,Clear,Morning,Low,Local,2,False,True,True,0.3439
+420,18.757185,79.515141,2025-10-17 04:23:07,RS_011,Rajiv Highway (SH-1),High,Clear,Night,Medium,Highway,4,True,True,False,0.7015
+421,18.742855,79.541145,2025-10-19 16:32:12,RS_044,Basanthnagar Road,Low,Fog,Afternoon,Low,Arterial,2,False,False,False,0.3256
+422,18.759295,79.469237,2025-10-20 14:35:33,RS_038,Ramagundam Road,Medium,Clear,Afternoon,Low,Arterial,3,False,True,False,0.2349
+423,18.657803,79.404848,2025-10-20 17:03:30,RS_002,Rajiv Highway (SH-1),Low,Clear,Evening,Medium,Highway,4,False,False,False,0.382
+424,18.586268,79.291236,2025-10-21 19:51:20,RS_022,Karimnagar-Peddapalli Bypass,Medium,Clear,Evening,Low,Highway,6,True,False,False,0.4733
+425,18.724021,79.490271,2025-10-24 04:30:55,RS_007,Rajiv Highway (SH-1),Medium,Rain,Night,Low,Highway,6,False,False,False,0.7459
+426,18.607221,79.344139,2025-10-24 20:09:53,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,High,Highway,4,False,False,False,0.3855
+427,18.773545,79.464263,2025-10-28 17:46:57,RS_013,Rajiv Highway (SH-1),Medium,Fog,Evening,Medium,Highway,6,True,False,True,0.7917
+428,18.710713,79.463383,2025-11-01 23:34:10,RS_006,Rajiv Highway (SH-1),High,Clear,Night,High,Highway,6,False,True,True,0.5753
+429,18.565302,79.223445,2025-11-04 03:58:29,RS_025,Karimnagar-Peddapalli Bypass,Medium,Clear,Night,Low,Highway,4,True,False,False,0.5131
+430,18.642248,79.346334,2025-11-06 05:06:24,RS_027,SH-7,Low,Fog,Night,High,Highway,4,False,False,False,0.5117
+431,18.563559,79.219862,2025-11-09 13:53:42,RS_025,Karimnagar-Peddapalli Bypass,Low,Clear,Afternoon,Low,Highway,4,True,False,False,0.3885
+432,18.671657,79.372376,2025-11-09 17:00:29,RS_032,Godavarikhani Road,Low,Fog,Evening,Medium,Arterial,2,True,False,False,0.4055
+433,18.642167,79.392056,2025-11-13 03:51:00,RS_061,Peddapalli North Link,Low,Fog,Night,Low,Arterial,2,True,True,False,0.6586
+434,18.608776,79.363351,2025-11-13 17:10:50,RS_059,Peddapalli Ring Road,Low,Rain,Evening,Medium,Arterial,4,False,False,True,0.3784
+435,18.763976,79.492091,2025-11-13 17:48:43,RS_012,Rajiv Highway (SH-1),High,Fog,Evening,Medium,Highway,5,False,False,False,0.8041
+436,18.573252,79.228933,2025-11-18 03:06:00,RS_018,SH-1 Peddapalli-Karimnagar,Medium,Fog,Night,Medium,Highway,4,False,False,True,0.5565
+437,18.579596,79.321151,2025-11-19 06:15:49,RS_054,Dharmaram Road,High,Fog,Morning,Low,Local,2,False,False,False,0.3261
+438,18.7203,79.482766,2025-11-21 09:58:03,RS_007,Rajiv Highway (SH-1),Low,Fog,Morning,High,Highway,6,False,False,False,0.6183
+439,18.680445,79.340295,2025-11-21 10:41:41,RS_030,SH-7,Low,Heavy Rain,Morning,High,Highway,4,False,False,True,0.5303
+440,18.73954,79.533847,2025-11-21 16:18:51,RS_044,Basanthnagar Road,Low,Fog,Afternoon,Low,Arterial,2,False,False,True,0.506
+441,18.629504,79.388187,2025-11-25 23:04:35,RS_060,Peddapalli North Link,High,Heavy Rain,Night,High,Arterial,2,False,False,False,0.4616
+442,18.643409,79.397692,2025-11-28 10:50:02,RS_002,Rajiv Highway (SH-1),Medium,Fog,Morning,Medium,Highway,4,False,False,True,0.4789
+443,18.607336,79.354752,2025-11-29 18:51:08,RS_014,SH-1 Peddapalli-Karimnagar,Medium,Rain,Evening,High,Highway,4,False,True,True,0.7009
+444,18.739822,79.532733,2025-11-30 08:17:31,RS_009,Rajiv Highway (SH-1),Low,Clear,Morning,Low,Highway,4,False,False,True,0.5492
+445,18.662127,79.527473,2025-11-30 11:27:32,RS_050,Manthani Road,Low,Heavy Rain,Morning,Medium,Arterial,2,False,False,True,0.5462
+446,18.619935,79.378351,2025-12-02 12:08:48,RS_026,SH-7,Low,Clear,Afternoon,High,Highway,4,True,False,True,0.3754
+447,18.628206,79.391458,2025-12-04 20:29:49,RS_001,Rajiv Highway (SH-1),Medium,Fog,Evening,Medium,Highway,6,False,True,False,0.6898
+448,18.636143,79.357222,2025-12-04 21:49:27,RS_027,SH-7,High,Heavy Rain,Night,Medium,Highway,4,False,False,False,0.516
+449,18.677835,79.584431,2025-12-06 19:03:06,RS_052,Manthani Road,Medium,Fog,Evening,High,Arterial,2,False,True,True,0.5721
+450,18.570887,79.221302,2025-12-08 20:55:54,RS_019,SH-1 Peddapalli-Karimnagar,Low,Clear,Evening,Low,Highway,4,False,True,False,0.4591
+451,18.751488,79.517516,2025-12-11 17:59:04,RS_011,Rajiv Highway (SH-1),High,Fog,Evening,Low,Highway,4,True,True,False,0.7391
+452,18.626624,79.417201,2025-12-13 05:24:54,RS_046,Manthani Road,Low,Fog,Night,Low,Arterial,2,False,True,False,0.5002
+453,18.703935,79.363258,2025-12-18 13:03:17,RS_034,Godavarikhani Road,Low,Fog,Afternoon,Low,Arterial,2,False,False,False,0.3391
+454,18.672114,79.334084,2025-12-20 21:58:06,RS_029,SH-7,Medium,Fog,Night,Low,Highway,4,False,False,False,0.4887
+455,18.759145,79.503388,2025-12-23 21:12:50,RS_011,Rajiv Highway (SH-1),Low,Fog,Night,Medium,Highway,4,True,True,False,0.95
+456,18.719094,79.484848,2025-12-24 17:37:06,RS_007,Rajiv Highway (SH-1),Medium,Fog,Evening,High,Highway,6,False,False,True,0.839
+457,18.702384,79.450982,2025-12-25 19:33:33,RS_005,Rajiv Highway (SH-1),Low,Clear,Evening,Medium,Highway,4,False,False,False,0.3803
+458,18.650013,79.34302,2025-12-26 17:19:26,RS_028,SH-7,Low,Clear,Evening,Medium,Highway,4,True,True,False,0.5577
+459,18.583966,79.285493,2025-12-28 23:12:53,RS_022,Karimnagar-Peddapalli Bypass,Medium,Fog,Night,High,Highway,6,True,False,False,0.5574
+460,18.744211,79.437936,2025-12-30 03:10:03,RS_036,Godavarikhani Road,Low,Clear,Night,Low,Arterial,2,True,False,False,0.3454
+461,18.699415,79.449144,2025-12-31 11:07:47,RS_005,Rajiv Highway (SH-1),High,Clear,Morning,High,Highway,4,False,False,True,0.4155
+462,18.647912,79.494601,2026-01-01 23:08:20,RS_049,Manthani Road,Low,Fog,Night,Low,Arterial,2,False,True,False,0.4796
+463,18.777622,79.454485,2026-01-11 19:08:43,RS_013,Rajiv Highway (SH-1),Medium,Fog,Evening,High,Highway,6,True,False,False,0.7362
+464,18.622415,79.374895,2026-01-13 20:22:58,RS_026,SH-7,Low,Clear,Evening,Medium,Highway,4,True,False,True,0.4842
+465,18.568993,79.310949,2026-01-14 23:30:13,RS_055,Dharmaram Road,High,Clear,Night,Low,Local,2,False,True,False,0.3659
+466,18.707871,79.364551,2026-01-18 19:39:12,RS_034,Godavarikhani Road,Medium,Fog,Evening,High,Arterial,2,False,False,True,0.4695
+467,18.766482,79.486838,2026-01-19 18:00:35,RS_012,Rajiv Highway (SH-1),Medium,Rain,Evening,Low,Highway,5,False,False,False,0.5867
+468,18.672865,79.572128,2026-01-19 20:51:21,RS_052,Manthani Road,Medium,Fog,Evening,Medium,Arterial,2,False,True,False,0.5303
+469,18.775061,79.456542,2026-01-21 17:39:04,RS_040,Basanthnagar Road,Low,Fog,Evening,Medium,Arterial,2,False,False,True,0.431
+470,18.720709,79.488689,2026-01-24 03:12:15,RS_007,Rajiv Highway (SH-1),High,Fog,Night,Low,Highway,6,False,False,False,0.6046
+471,18.712896,79.369497,2026-01-24 16:02:52,RS_034,Godavarikhani Road,High,Heavy Rain,Afternoon,Low,Arterial,2,False,False,False,0.3471
+472,18.685425,79.432531,2026-01-24 18:40:06,RS_004,Rajiv Highway (SH-1),Medium,Fog,Evening,Medium,Highway,6,True,False,False,0.5979
+473,18.773464,79.456372,2026-01-26 19:19:15,RS_013,Rajiv Highway (SH-1),High,Heavy Rain,Evening,Medium,Highway,6,True,False,True,0.897
+474,18.77558,79.453806,2026-01-27 22:20:26,RS_039,Ramagundam Road,Medium,Rain,Night,High,Arterial,3,False,True,True,0.6006
+475,18.706349,79.364373,2026-01-30 11:27:11,RS_034,Godavarikhani Road,Low,Clear,Morning,High,Arterial,2,False,False,True,0.3101
+476,18.600444,79.352873,2026-01-31 11:26:39,RS_053,Dharmaram Road,Low,Fog,Morning,Medium,Local,2,True,True,False,0.5055
+477,18.775657,79.453266,2026-02-02 17:53:31,RS_039,Ramagundam Road,Low,Clear,Evening,High,Arterial,3,False,True,False,0.4107
+478,18.684541,79.342037,2026-02-04 20:56:43,RS_030,SH-7,High,Clear,Evening,Low,Highway,4,False,False,False,0.3678
+479,18.685117,79.360905,2026-02-05 22:30:40,RS_033,Godavarikhani Road,Low,Clear,Night,Low,Arterial,2,False,False,False,0.3165
+480,18.606388,79.337089,2026-02-06 04:09:07,RS_015,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,Medium,Highway,4,False,False,True,0.4244
+481,18.731794,79.514272,2026-02-08 20:09:12,RS_008,Rajiv Highway (SH-1),High,Heavy Rain,Evening,High,Highway,5,True,False,True,0.7978
+482,18.755404,79.478579,2026-02-12 11:34:31,RS_041,Basanthnagar Road,High,Rain,Morning,High,Arterial,2,True,False,True,0.5813
+483,18.650324,79.498821,2026-02-15 15:17:35,RS_049,Manthani Road,Medium,Clear,Afternoon,Low,Arterial,2,False,True,False,0.2081
+484,18.742364,79.534907,2026-02-17 10:42:40,RS_044,Basanthnagar Road,High,Clear,Morning,Low,Arterial,2,False,False,False,0.2613
+485,18.622104,79.387735,2026-02-18 23:53:35,RS_060,Peddapalli North Link,High,Rain,Night,Low,Arterial,2,False,False,False,0.3568
+486,18.708877,79.456337,2026-02-21 03:08:57,RS_006,Rajiv Highway (SH-1),Medium,Clear,Night,Medium,Highway,6,False,True,False,0.5434
+487,18.605708,79.359635,2026-02-27 16:13:45,RS_059,Peddapalli Ring Road,Medium,Clear,Afternoon,Medium,Arterial,4,False,False,False,0.3553
+488,18.767952,79.466899,2026-02-27 17:36:07,RS_038,Ramagundam Road,High,Rain,Evening,Medium,Arterial,3,False,True,True,0.554
+489,18.607474,79.364005,2026-02-28 01:47:30,RS_059,Peddapalli Ring Road,Medium,Clear,Night,Medium,Arterial,4,False,False,False,0.3854
+490,18.729523,79.508563,2026-03-07 09:32:58,RS_008,Rajiv Highway (SH-1),High,Clear,Morning,Low,Highway,5,True,False,False,0.5763
+491,18.753444,79.456973,2026-03-09 05:04:49,RS_037,Godavarikhani Road,Low,Clear,Night,Low,Arterial,4,False,False,False,0.2261
+492,18.610706,79.349514,2026-03-10 21:56:26,RS_014,SH-1 Peddapalli-Karimnagar,Medium,Clear,Night,High,Highway,4,False,True,True,0.6677
+493,18.611096,79.365398,2026-03-16 23:47:47,RS_059,Peddapalli Ring Road,Low,Clear,Night,Medium,Arterial,4,False,False,False,0.3245
+494,18.620326,79.399619,2026-03-19 17:00:13,RS_045,Manthani Road,Low,Clear,Evening,Low,Arterial,2,True,True,True,0.4909
+495,18.687092,79.348857,2026-03-21 18:27:06,RS_030,SH-7,Low,Clear,Evening,Medium,Highway,4,False,False,False,0.2791
+496,18.649981,79.338856,2026-03-23 06:51:54,RS_028,SH-7,Low,Clear,Morning,Low,Highway,4,True,True,True,0.4105
+497,18.672104,79.413755,2026-03-25 11:09:44,RS_003,Rajiv Highway (SH-1),Medium,Clear,Morning,Low,Highway,6,False,False,True,0.4494
+498,18.693331,79.437703,2026-03-30 12:10:15,RS_005,Rajiv Highway (SH-1),Low,Clear,Afternoon,Low,Highway,4,False,False,True,0.3517
+499,18.747775,79.490827,2026-03-30 12:11:55,RS_042,Basanthnagar Road,Low,Clear,Afternoon,Medium,Arterial,2,False,True,True,0.5378
+500,18.648626,79.39873,2026-04-01 09:40:27,RS_002,Rajiv Highway (SH-1),Medium,Rain,Morning,High,Highway,4,False,False,True,0.5687

@@ -1,0 +1,37 @@
+{
+  "Peddapalli Town": {
+    "lat": 18.616,
+    "lng": 79.383,
+    "node_id": "peddapalli_center"
+  },
+  "Godavarikhani": {
+    "lat": 18.76,
+    "lng": 79.47,
+    "node_id": "godavarikhani"
+  },
+  "Ramagundam": {
+    "lat": 18.78,
+    "lng": 79.45,
+    "node_id": "ramagundam"
+  },
+  "Basanthnagar": {
+    "lat": 18.745,
+    "lng": 79.545,
+    "node_id": "basanthnagar"
+  },
+  "Manthani": {
+    "lat": 18.68,
+    "lng": 79.59,
+    "node_id": "manthani"
+  },
+  "Dharmaram": {
+    "lat": 18.535,
+    "lng": 79.26,
+    "node_id": "dharmaram"
+  },
+  "Karimnagar Road (District Edge)": {
+    "lat": 18.56,
+    "lng": 79.205,
+    "node_id": "karimnagar_bypass_w"
+  }
+}

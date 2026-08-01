@@ -1,0 +1,119 @@
+{
+  "trained_at": "2026-08-01T03:06:21Z",
+  "model_type": "gradient_boosting",
+  "n_training_rows": 500,
+  "feature_columns": [
+    "weather_condition",
+    "time_of_day",
+    "traffic_density",
+    "road_type",
+    "latitude",
+    "longitude",
+    "num_lanes",
+    "has_intersection",
+    "has_curve",
+    "is_peak_hour"
+  ],
+  "target": "risk_score",
+  "cv_results": {
+    "random_forest": {
+      "r2_mean": 0.7162221648892342,
+      "r2_std": 0.05499945124754477,
+      "mae_mean": 0.06210305317953511,
+      "rmse_mean": 0.07671314085045686
+    },
+    "gradient_boosting": {
+      "r2_mean": 0.7650201541669212,
+      "r2_std": 0.04296953380142154,
+      "mae_mean": 0.05649158476847186,
+      "rmse_mean": 0.06987217835614842
+    }
+  },
+  "holdout_metrics": {
+    "r2": 0.8143888179167664,
+    "mae": 0.05265230836961659,
+    "rmse": 0.06512087459468684
+  },
+  "feature_importances": [
+    [
+      "latitude",
+      0.2584964251573026
+    ],
+    [
+      "weather_condition_Clear",
+      0.22867579337986302
+    ],
+    [
+      "road_type_Highway",
+      0.1875665100189607
+    ],
+    [
+      "longitude",
+      0.08001128849883977
+    ],
+    [
+      "has_curve",
+      0.05194498022223824
+    ],
+    [
+      "has_intersection",
+      0.0436524143705188
+    ],
+    [
+      "is_peak_hour",
+      0.03849518176403799
+    ],
+    [
+      "time_of_day_Morning",
+      0.018400272197034342
+    ],
+    [
+      "time_of_day_Afternoon",
+      0.01750031232509628
+    ],
+    [
+      "road_type_Arterial",
+      0.01707051846739499
+    ],
+    [
+      "traffic_density_Low",
+      0.013020616718545742
+    ],
+    [
+      "time_of_day_Night",
+      0.011705957123657157
+    ],
+    [
+      "num_lanes",
+      0.008777883790424691
+    ],
+    [
+      "weather_condition_Heavy Rain",
+      0.0076013663200775045
+    ],
+    [
+      "time_of_day_Evening",
+      0.006513293200082652
+    ],
+    [
+      "traffic_density_High",
+      0.004089142881939655
+    ],
+    [
+      "traffic_density_Medium",
+      0.0029081519152048276
+    ],
+    [
+      "road_type_Local",
+      0.0021978076630203686
+    ],
+    [
+      "weather_condition_Fog",
+      0.0011897370896244812
+    ],
+    [
+      "weather_condition_Rain",
+      0.00018234689613634523
+    ]
+  ]
+}

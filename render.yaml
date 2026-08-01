@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: accident-prediction-backend
+    env: python
+    region: singapore
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: AUTO_TRAIN_IF_MISSING
+        value: "true"

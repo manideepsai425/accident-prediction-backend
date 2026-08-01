@@ -1,0 +1,1652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_001",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.705,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.395333,
+            18.637333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_002",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.705,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.395333,
+            18.637333
+          ],
+          [
+            79.407667,
+            18.658667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_003",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.705,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_sh1_1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.407667,
+            18.658667
+          ],
+          [
+            79.42,
+            18.68
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_004",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.183,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": "mid_sh1_1",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.42,
+            18.68
+          ],
+          [
+            79.436667,
+            18.691667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_005",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.183,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.436667,
+            18.691667
+          ],
+          [
+            79.453333,
+            18.703333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_006",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.183,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_sh1_2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.453333,
+            18.703333
+          ],
+          [
+            79.47,
+            18.715
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_007",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.858,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "mid_sh1_2",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.47,
+            18.715
+          ],
+          [
+            79.495,
+            18.725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_008",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 5,
+        "length_km": 2.858,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.495,
+            18.725
+          ],
+          [
+            79.52,
+            18.735
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_009",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.858,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "basanthnagar"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.52,
+            18.735
+          ],
+          [
+            79.545,
+            18.745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_010",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.683,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "basanthnagar",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.545,
+            18.745
+          ],
+          [
+            79.52125,
+            18.75375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_011",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.683,
+        "has_curve": true,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.52125,
+            18.75375
+          ],
+          [
+            79.4975,
+            18.7625
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_012",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 5,
+        "length_km": 2.683,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.4975,
+            18.7625
+          ],
+          [
+            79.47375,
+            18.77125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_013",
+        "road_name": "Rajiv Highway (SH-1)",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.683,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": "ramagundam"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.47375,
+            18.77125
+          ],
+          [
+            79.45,
+            18.78
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_014",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 3.736,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.3485,
+            18.60825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_015",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 3.736,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.3485,
+            18.60825
+          ],
+          [
+            79.314,
+            18.6005
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_016",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 3.737,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.314,
+            18.6005
+          ],
+          [
+            79.2795,
+            18.59275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_017",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 3.737,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_karimnagar_sh1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.2795,
+            18.59275
+          ],
+          [
+            79.245,
+            18.585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_018",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.525,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "mid_karimnagar_sh1",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.245,
+            18.585
+          ],
+          [
+            79.225,
+            18.5725
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_019",
+        "road_name": "SH-1 Peddapalli-Karimnagar",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.525,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "karimnagar_bypass_w"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.225,
+            18.5725
+          ],
+          [
+            79.205,
+            18.56
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_020",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 3.016,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "peddapalli_bypass_jn",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.355,
+            18.605
+          ],
+          [
+            79.3275,
+            18.5975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_021",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 3.016,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_bypass_1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.3275,
+            18.5975
+          ],
+          [
+            79.3,
+            18.59
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_022",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.638,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": "mid_bypass_1",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.3,
+            18.59
+          ],
+          [
+            79.27625,
+            18.5825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_023",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 5,
+        "length_km": 2.639,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.27625,
+            18.5825
+          ],
+          [
+            79.2525,
+            18.575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_024",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 6,
+        "length_km": 2.639,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.2525,
+            18.575
+          ],
+          [
+            79.22875,
+            18.5675
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_025",
+        "road_name": "Karimnagar-Peddapalli Bypass",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.639,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": "karimnagar_bypass_w"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.22875,
+            18.5675
+          ],
+          [
+            79.205,
+            18.56
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_026",
+        "road_name": "SH-7",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.475,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.365333,
+            18.630667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_027",
+        "road_name": "SH-7",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.475,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.365333,
+            18.630667
+          ],
+          [
+            79.347667,
+            18.645333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_028",
+        "road_name": "SH-7",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.475,
+        "has_curve": true,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": "sh7_jn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.347667,
+            18.645333
+          ],
+          [
+            79.33,
+            18.66
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_029",
+        "road_name": "SH-7",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.461,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "sh7_jn",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.33,
+            18.66
+          ],
+          [
+            79.34,
+            18.68
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_030",
+        "road_name": "SH-7",
+        "road_type": "Highway",
+        "num_lanes": 4,
+        "length_km": 2.461,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "sh7_north"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.34,
+            18.68
+          ],
+          [
+            79.35,
+            18.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_031",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.579,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": "peddapalli_north",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.395,
+            18.645
+          ],
+          [
+            79.38,
+            18.663333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_032",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.579,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.38,
+            18.663333
+          ],
+          [
+            79.365,
+            18.681667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_033",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.579,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "sh7_north"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.365,
+            18.681667
+          ],
+          [
+            79.35,
+            18.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_034",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.573,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "sh7_north",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.35,
+            18.7
+          ],
+          [
+            79.38,
+            18.715
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_035",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 3,
+        "length_km": 3.573,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.38,
+            18.715
+          ],
+          [
+            79.41,
+            18.73
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_036",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.572,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.41,
+            18.73
+          ],
+          [
+            79.44,
+            18.745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_037",
+        "road_name": "Godavarikhani Road",
+        "road_type": "Arterial",
+        "num_lanes": 4,
+        "length_km": 3.572,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "godavarikhani"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.44,
+            18.745
+          ],
+          [
+            79.47,
+            18.76
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_038",
+        "road_name": "Ramagundam Road",
+        "road_type": "Arterial",
+        "num_lanes": 3,
+        "length_km": 1.531,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": "godavarikhani",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.47,
+            18.76
+          ],
+          [
+            79.46,
+            18.77
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_039",
+        "road_name": "Ramagundam Road",
+        "road_type": "Arterial",
+        "num_lanes": 3,
+        "length_km": 1.531,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "ramagundam"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.46,
+            18.77
+          ],
+          [
+            79.45,
+            18.78
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_040",
+        "road_name": "Basanthnagar Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.655,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "ramagundam",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.45,
+            18.78
+          ],
+          [
+            79.469333,
+            18.764667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_041",
+        "road_name": "Basanthnagar Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.655,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.469333,
+            18.764667
+          ],
+          [
+            79.488667,
+            18.749333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_042",
+        "road_name": "Basanthnagar Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.655,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "basanthnagar_local_mid"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.488667,
+            18.749333
+          ],
+          [
+            79.508,
+            18.734
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_043",
+        "road_name": "Basanthnagar Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.042,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "basanthnagar_local_mid",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.508,
+            18.734
+          ],
+          [
+            79.5265,
+            18.7395
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_044",
+        "road_name": "Basanthnagar Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.042,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "basanthnagar"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.5265,
+            18.7395
+          ],
+          [
+            79.545,
+            18.745
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_045",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.387,
+        "has_curve": true,
+        "has_intersection": true,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.40475,
+            18.622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_046",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.387,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.40475,
+            18.622
+          ],
+          [
+            79.4265,
+            18.628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_047",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.387,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.4265,
+            18.628
+          ],
+          [
+            79.44825,
+            18.634
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_048",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 2.387,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_manthani_1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.44825,
+            18.634
+          ],
+          [
+            79.47,
+            18.64
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_049",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.351,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": "mid_manthani_1",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.47,
+            18.64
+          ],
+          [
+            79.5,
+            18.65
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_050",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.35,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.5,
+            18.65
+          ],
+          [
+            79.53,
+            18.66
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_051",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.35,
+        "has_curve": false,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.53,
+            18.66
+          ],
+          [
+            79.56,
+            18.67
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_052",
+        "road_name": "Manthani Road",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 3.35,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "manthani"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.56,
+            18.67
+          ],
+          [
+            79.59,
+            18.68
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_053",
+        "road_name": "Dharmaram Road",
+        "road_type": "Local",
+        "num_lanes": 2,
+        "length_km": 2.487,
+        "has_curve": true,
+        "has_intersection": true,
+        "start_node": "peddapalli_bypass_jn",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.355,
+            18.605
+          ],
+          [
+            79.3375,
+            18.59
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_054",
+        "road_name": "Dharmaram Road",
+        "road_type": "Local",
+        "num_lanes": 2,
+        "length_km": 2.487,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "mid_dharmaram_1"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.3375,
+            18.59
+          ],
+          [
+            79.32,
+            18.575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_055",
+        "road_name": "Dharmaram Road",
+        "road_type": "Local",
+        "num_lanes": 2,
+        "length_km": 2.577,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": "mid_dharmaram_1",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.32,
+            18.575
+          ],
+          [
+            79.3,
+            18.561667
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_056",
+        "road_name": "Dharmaram Road",
+        "road_type": "Local",
+        "num_lanes": 2,
+        "length_km": 2.577,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.3,
+            18.561667
+          ],
+          [
+            79.28,
+            18.548333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_057",
+        "road_name": "Dharmaram Road",
+        "road_type": "Local",
+        "num_lanes": 2,
+        "length_km": 2.578,
+        "has_curve": true,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "dharmaram"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.28,
+            18.548333
+          ],
+          [
+            79.26,
+            18.535
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_058",
+        "road_name": "Peddapalli Ring Road",
+        "road_type": "Arterial",
+        "num_lanes": 4,
+        "length_km": 1.597,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.369,
+            18.6105
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_059",
+        "road_name": "Peddapalli Ring Road",
+        "road_type": "Arterial",
+        "num_lanes": 4,
+        "length_km": 1.597,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": null,
+        "end_node": "peddapalli_bypass_jn"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.369,
+            18.6105
+          ],
+          [
+            79.355,
+            18.605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_060",
+        "road_name": "Peddapalli North Link",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 1.732,
+        "has_curve": false,
+        "has_intersection": false,
+        "start_node": "peddapalli_center",
+        "end_node": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.383,
+            18.616
+          ],
+          [
+            79.389,
+            18.6305
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "RS_061",
+        "road_name": "Peddapalli North Link",
+        "road_type": "Arterial",
+        "num_lanes": 2,
+        "length_km": 1.732,
+        "has_curve": true,
+        "has_intersection": true,
+        "start_node": null,
+        "end_node": "peddapalli_north"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.389,
+            18.6305
+          ],
+          [
+            79.395,
+            18.645
+          ]
+        ]
+      }
+    }
+  ]
+}
