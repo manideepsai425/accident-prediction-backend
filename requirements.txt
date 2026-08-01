@@ -2,16 +2,17 @@
 # If you retrain on Google Colab, make sure Colab's scikit-learn version
 # matches (or is newer than) the one below -- joblib-pickled models are
 # not guaranteed compatible across major scikit-learn version jumps.
-fastapi==0.141.1
-uvicorn[standard]==0.52.0
-pydantic==2.13.4
-pydantic-settings==2.14.2
-pandas==3.0.2
-numpy==2.4.4
-scikit-learn==1.8.0
-joblib==1.5.3
-networkx==3.6.1
-shapely==2.1.2
-python-dotenv==1.2.2
-httpx==0.28.1
-pytest==9.1.1
+
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+pandas
+numpy
+scikit-learn
+joblib
+networkx
+shapely
+python-dotenv
+httpx
+pytest
