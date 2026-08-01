@@ -8,9 +8,9 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 pandas
-numpy
-scikit-learn
-joblib
+numpy==2.0.2
+scikit-learn==1.6.1
+joblib==1.5.3
 networkx
 shapely
 python-dotenv
